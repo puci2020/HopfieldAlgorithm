@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DMU.Hopfield",
+    "\\DMU.Hopfield\\Math",
+    "\\DMU.Hopfield\\NeuralNetwork",
+    "\\DMU.Hopfield\\Properties",
+    "\\DMU.Hopfield\\Resources",
+    "\\DMU.Terminal",
+    "\\DMU.Terminal\\bin",
+    "\\DMU.Terminal\\bin\\Debug"
+  ],
+  "SelectedNode": "\\DMU.Terminal\\bin\\Debug\\Redirect.txt",
+  "PreviewInSolutionExplorer": false
+}

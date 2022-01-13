@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "847c713c-bef1-4978-bb2b-f4de9d038368": {
+      "ProjectGuid": "847c713c-bef1-4978-bb2b-f4de9d038368",
+      "DisplayName": "DMU.Terminal",
+      "ColorIndex": 0
+    },
+    "03f684ac-89cf-4a6f-bda3-a7bda36e079d": {
+      "ProjectGuid": "03f684ac-89cf-4a6f-bda3-a7bda36e079d",
+      "DisplayName": "DMU.TestGui",
+      "ColorIndex": 1
+    },
+    "fb29c1a3-eac4-48cf-81c8-a435736f6cdb": {
+      "ProjectGuid": "fb29c1a3-eac4-48cf-81c8-a435736f6cdb",
+      "DisplayName": "DMU.Hopfield",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

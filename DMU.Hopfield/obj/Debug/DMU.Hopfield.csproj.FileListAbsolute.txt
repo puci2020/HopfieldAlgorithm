@@ -1,0 +1,8 @@
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.Hopfield\obj\Debug\DMU.Hopfield.csproj.AssemblyReference.cache
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.Hopfield\obj\Debug\AIF.Resources.ErrorMessages.resources
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.Hopfield\obj\Debug\DMU.Hopfield.csproj.GenerateResource.cache
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.Hopfield\obj\Debug\DMU.Hopfield.csproj.CoreCompileInputs.cache
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.Hopfield\bin\Debug\AIF.dll
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.Hopfield\bin\Debug\AIF.pdb
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.Hopfield\obj\Debug\AIF.dll
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.Hopfield\obj\Debug\AIF.pdb

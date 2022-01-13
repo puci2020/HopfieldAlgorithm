@@ -4,18 +4,18 @@ Badany wektor:
 Badany wektor:
  -1,0 -1,0 -1,0
 Macierz wag:
- 0,0	-1,0	3,0
--1,0	0,0	2,0
-3,0	2,0	0,0
+ 1,0	2,0	3,0
+4,0	5,0	6,0
+7,0	8,0	9,0
 
 
 Krok 1
 Potencjał wejściowy:
--1,5 -0,5 -4,5
+-5,5 -14,5 -23,5
 Potencjał wyjściowy:
 -1,0 -1,0 -1,0
 
-Energia(1) = -8
+Energia(1) = -45
 Wniosek: Punkt [-1,0 -1,0 -1,0] jest stały!
 
 ----- Koniec badania! -----
@@ -25,27 +25,27 @@ Badany wektor:
 Badany wektor:
  -1,0 -1,0 1,0
 Macierz wag:
- 0,0	-1,0	3,0
--1,0	0,0	2,0
-3,0	2,0	0,0
+ 1,0	2,0	3,0
+4,0	5,0	6,0
+7,0	8,0	9,0
 
 
 Krok 1
 Potencjał wejściowy:
-4,5 3,5 -4,5
+0,5 -2,5 -5,5
 Potencjał wyjściowy:
-1,0 1,0 -1,0
+1,0 -1,0 -1,0
 
-Energia(1) = -12
+Energia(1) = -1
 
 Krok 2
 Potencjał wejściowy:
--3,5 -2,5 5,5
+-3,5 -6,5 -9,5
 Potencjał wyjściowy:
--1,0 -1,0 1,0
+-1,0 -1,0 -1,0
 
-Energia(2) = -12
-Wniosek: Punkt [-1,0 -1,0 1,0] wpada w cykl [-1,0 -1,0 1,0] <-> [1,0 1,0 -1,0]
+Energia(2) = -33
+Wniosek: Punkt [-1,0 -1,0 1,0] wpada w cykl [-1,0 -1,0 -1,0] <-> [1,0 -1,0 -1,0]
 
 ----- Koniec badania! -----
 ------------------------ Wektor numer 3 ------------------------
@@ -54,26 +54,26 @@ Badany wektor:
 Badany wektor:
  -1,0 1,0 -1,0
 Macierz wag:
- 0,0	-1,0	3,0
--1,0	0,0	2,0
-3,0	2,0	0,0
+ 1,0	2,0	3,0
+4,0	5,0	6,0
+7,0	8,0	9,0
 
 
 Krok 1
 Potencjał wejściowy:
--3,5 -0,5 -0,5
+-1,5 -4,5 -7,5
 Potencjał wyjściowy:
 -1,0 -1,0 -1,0
 
-Energia(1) = -6
+Energia(1) = -15
 
 Krok 2
 Potencjał wejściowy:
--1,5 -0,5 -4,5
+-5,5 -14,5 -23,5
 Potencjał wyjściowy:
 -1,0 -1,0 -1,0
 
-Energia(2) = -8
+Energia(2) = -45
 Wniosek: Punkt [-1,0 1,0 -1,0] jest zbieżny do punktu [-1,0 -1,0 -1,0]
 
 ----- Koniec badania! -----
@@ -83,27 +83,27 @@ Badany wektor:
 Badany wektor:
  -1,0 1,0 1,0
 Macierz wag:
- 0,0	-1,0	3,0
--1,0	0,0	2,0
-3,0	2,0	0,0
+ 1,0	2,0	3,0
+4,0	5,0	6,0
+7,0	8,0	9,0
 
 
 Krok 1
 Potencjał wejściowy:
-2,5 3,5 -0,5
+4,5 7,5 10,5
 Potencjał wyjściowy:
-1,0 1,0 -1,0
+1,0 1,0 1,0
 
-Energia(1) = -6
+Energia(1) = -33
 
 Krok 2
 Potencjał wejściowy:
--3,5 -2,5 5,5
+6,5 15,5 24,5
 Potencjał wyjściowy:
--1,0 -1,0 1,0
+1,0 1,0 1,0
 
-Energia(2) = -12
-Wniosek: Punkt [-1,0 1,0 1,0] wpada w cykl [-1,0 -1,0 1,0] <-> [1,0 1,0 -1,0]
+Energia(2) = -45
+Wniosek: Punkt [-1,0 1,0 1,0] jest zbieżny do punktu [1,0 1,0 1,0]
 
 ----- Koniec badania! -----
 ------------------------ Wektor numer 5 ------------------------
@@ -112,27 +112,27 @@ Badany wektor:
 Badany wektor:
  1,0 -1,0 -1,0
 Macierz wag:
- 0,0	-1,0	3,0
--1,0	0,0	2,0
-3,0	2,0	0,0
+ 1,0	2,0	3,0
+4,0	5,0	6,0
+7,0	8,0	9,0
 
 
 Krok 1
 Potencjał wejściowy:
--1,5 -2,5 1,5
+-3,5 -6,5 -9,5
 Potencjał wyjściowy:
--1,0 -1,0 1,0
+-1,0 -1,0 -1,0
 
-Energia(1) = -6
+Energia(1) = -33
 
 Krok 2
 Potencjał wejściowy:
-4,5 3,5 -4,5
+-5,5 -14,5 -23,5
 Potencjał wyjściowy:
-1,0 1,0 -1,0
+-1,0 -1,0 -1,0
 
-Energia(2) = -12
-Wniosek: Punkt [1,0 -1,0 -1,0] wpada w cykl [1,0 1,0 -1,0] <-> [-1,0 -1,0 1,0]
+Energia(2) = -45
+Wniosek: Punkt [1,0 -1,0 -1,0] jest zbieżny do punktu [-1,0 -1,0 -1,0]
 
 ----- Koniec badania! -----
 ------------------------ Wektor numer 6 ------------------------
@@ -141,26 +141,26 @@ Badany wektor:
 Badany wektor:
  1,0 -1,0 1,0
 Macierz wag:
- 0,0	-1,0	3,0
--1,0	0,0	2,0
-3,0	2,0	0,0
+ 1,0	2,0	3,0
+4,0	5,0	6,0
+7,0	8,0	9,0
 
 
 Krok 1
 Potencjał wejściowy:
-4,5 1,5 1,5
+2,5 5,5 8,5
 Potencjał wyjściowy:
 1,0 1,0 1,0
 
-Energia(1) = -6
+Energia(1) = -15
 
 Krok 2
 Potencjał wejściowy:
-2,5 1,5 5,5
+6,5 15,5 24,5
 Potencjał wyjściowy:
 1,0 1,0 1,0
 
-Energia(2) = -8
+Energia(2) = -45
 Wniosek: Punkt [1,0 -1,0 1,0] jest zbieżny do punktu [1,0 1,0 1,0]
 
 ----- Koniec badania! -----
@@ -170,27 +170,27 @@ Badany wektor:
 Badany wektor:
  1,0 1,0 -1,0
 Macierz wag:
- 0,0	-1,0	3,0
--1,0	0,0	2,0
-3,0	2,0	0,0
+ 1,0	2,0	3,0
+4,0	5,0	6,0
+7,0	8,0	9,0
 
 
 Krok 1
 Potencjał wejściowy:
--3,5 -2,5 5,5
+0,5 3,5 6,5
 Potencjał wyjściowy:
--1,0 -1,0 1,0
+1,0 1,0 1,0
 
-Energia(1) = -12
+Energia(1) = 3
 
 Krok 2
 Potencjał wejściowy:
-4,5 3,5 -4,5
+6,5 15,5 24,5
 Potencjał wyjściowy:
-1,0 1,0 -1,0
+1,0 1,0 1,0
 
-Energia(2) = -12
-Wniosek: Punkt [1,0 1,0 -1,0] wpada w cykl [1,0 1,0 -1,0] <-> [-1,0 -1,0 1,0]
+Energia(2) = -45
+Wniosek: Punkt [1,0 1,0 -1,0] jest zbieżny do punktu [1,0 1,0 1,0]
 
 ----- Koniec badania! -----
 ------------------------ Wektor numer 8 ------------------------
@@ -199,18 +199,18 @@ Badany wektor:
 Badany wektor:
  1,0 1,0 1,0
 Macierz wag:
- 0,0	-1,0	3,0
--1,0	0,0	2,0
-3,0	2,0	0,0
+ 1,0	2,0	3,0
+4,0	5,0	6,0
+7,0	8,0	9,0
 
 
 Krok 1
 Potencjał wejściowy:
-2,5 1,5 5,5
+6,5 15,5 24,5
 Potencjał wyjściowy:
 1,0 1,0 1,0
 
-Energia(1) = -8
+Energia(1) = -45
 Wniosek: Punkt [1,0 1,0 1,0] jest stały!
 
 ----- Koniec badania! -----

@@ -52,6 +52,9 @@ namespace DMU.Terminal {
           0.5
         }, true);
 
+        file.WriteLine("###################### TRYB SYNCHRONICZNY ######################");
+        Console.WriteLine("###################### TRYB SYNCHRONICZNY ######################");
+
         for (int i = 0; i < vectors_I.GetLength(0); i++) {
           file.WriteLine("------------------------ Wektor numer {0} ------------------------", i + 1);
           Console.WriteLine("------------------------ Wektor numer {0} ------------------------", i + 1);
@@ -90,11 +93,34 @@ namespace DMU.Terminal {
             Console.WriteLine("\nEnergia({0}) = {1}", index, energy_V);
             file.WriteLine("\nEnergia({0}) = {1}", index, energy_V);
 
-            if (index > 1) {
+            if (index == 1) {
+              if (Vn_1.Equals(Vn)) {
+                Console.WriteLine("Wniosek: Punkt [{0}] jest stały!", Vn.ToString("F1", "\n", " "));
+                file.WriteLine("Wniosek: Punkt [{0}] jest stały!", Vn.ToString("F1", "\n", " "));
+                repeat = false;
+                Console.WriteLine("\n----- Koniec badania! -----");
+                file.WriteLine("\n----- Koniec badania! -----");
+              }
+            } else if (index <= 2) {
               energy_V_1 = getEnergySync(W, Vn, Vn_1);
-
+              if (!Vn_1.Equals(Vn) && Vn.Equals(V0) && energy_V == energy_V_1) {
+                Console.WriteLine("Wniosek: Punkt [{0}] tworzy cykl [{1}] <-> [{2}]", V0.ToString("F1", "\n", " "), Vn.ToString("F1", "\n", " "), Vn_1.ToString("F1", "\n", " "));
+                file.WriteLine("Wniosek: Punkt [{0}] tworzy w cykl [{1}] <-> [{2}]", V0.ToString("F1", "\n", " "), Vn.ToString("F1", "\n", " "), Vn_1.ToString("F1", "\n", " "));
+                repeat = false;
+                Console.WriteLine("\n----- Koniec badania! -----");
+                file.WriteLine("\n----- Koniec badania! -----");
+              }
+              if (Vn_1.Equals(Vn)) {
+                Console.WriteLine("Wniosek: Punkt [{0}] jest zbieżny do punktu [{1}]", V0.ToString("F1", "\n", " "), Vn.ToString("F1", "\n", " "));
+                file.WriteLine("Wniosek: Punkt [{0}] jest zbieżny do punktu [{1}]", V0.ToString("F1", "\n", " "), Vn.ToString("F1", "\n", " "));
+                repeat = false;
+                Console.WriteLine("\n----- Koniec badania! -----");
+                file.WriteLine("\n----- Koniec badania! -----");
+              }
+            } else {
+              energy_V_1 = getEnergySync(W, Vn, Vn_1);
               if (!Vn_1.Equals(Vn) && energy_V == energy_V_1) {
-                Console.WriteLine("Wniosek: Punkt [{0}] wpada w cykl [{1}] <-> [{2}]", V0.ToString("F1", "\n", " "), Vn.ToString("F1", "\n", " "), Vn_1.ToString("F1", "\n", " "));
+                Console.WriteLine("Wniosek: Punkt [{0}] wpada cykl [{1}] <-> [{2}]", V0.ToString("F1", "\n", " "), Vn.ToString("F1", "\n", " "), Vn_1.ToString("F1", "\n", " "));
                 file.WriteLine("Wniosek: Punkt [{0}] wpada w cykl [{1}] <-> [{2}]", V0.ToString("F1", "\n", " "), Vn.ToString("F1", "\n", " "), Vn_1.ToString("F1", "\n", " "));
                 repeat = false;
                 Console.WriteLine("\n----- Koniec badania! -----");
@@ -107,13 +133,8 @@ namespace DMU.Terminal {
                 Console.WriteLine("\n----- Koniec badania! -----");
                 file.WriteLine("\n----- Koniec badania! -----");
               }
-            } else if (Vn_1.Equals(Vn)) {
-              Console.WriteLine("Wniosek: Punkt [{0}] jest stały!", Vn.ToString("F1", "\n", " "));
-              file.WriteLine("Wniosek: Punkt [{0}] jest stały!", Vn.ToString("F1", "\n", " "));
-              repeat = false;
-              Console.WriteLine("\n----- Koniec badania! -----");
-              file.WriteLine("\n----- Koniec badania! -----");
             }
+           
 
             index++;
 
@@ -143,8 +164,8 @@ namespace DMU.Terminal {
 
           Console.WriteLine("-------------------------------------------------------------------");
           file.WriteLine("-------------------------------------------------------------------");
-          Console.WriteLine("********** Wygenerowana macierz numer {0} **********", i + 1);
-          file.WriteLine("********** Wygenerowana macierz numer {0} **********", i + 1);
+          Console.WriteLine("***************** Wygenerowana macierz numer {0} *****************", i + 1);
+          file.WriteLine("***************** Wygenerowana macierz numer {0} *****************", i + 1);
           Console.WriteLine("-------------------------------------------------------------------");
           file.WriteLine("-------------------------------------------------------------------");
           runHopfieldSync(randMatrixData);

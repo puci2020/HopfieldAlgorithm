@@ -1,0 +1,4733 @@
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 1 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-55,0	53,0
+-55,0	0,0	41,0
+53,0	41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+2,5 14,5 -93,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -111
+
+Krok 2
+Potencjał wejściowy:
+-107,5 -95,5 94,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -298
+
+Krok 3
+Potencjał wejściowy:
+108,5 96,5 -93,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(3) = -298
+Wniosek: Punkt [-1 -1 -1] wpada w cykl [1 1 -1] <-> [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-55,0	53,0
+-55,0	0,0	41,0
+53,0	41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+108,5 96,5 -93,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -298
+
+Krok 2
+Potencjał wejściowy:
+-107,5 -95,5 94,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -298
+Wniosek: Punkt [-1 -1 1] tworzy w cykl [-1 -1 1] <-> [1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-55,0	53,0
+-55,0	0,0	41,0
+53,0	41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-107,5 14,5 -11,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -135
+Wniosek: Punkt [-1 1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	-55,0	53,0
+-55,0	0,0	41,0
+53,0	41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-1,5 96,5 -11,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -110
+
+Krok 2
+Potencjał wejściowy:
+-107,5 14,5 -11,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -135
+Wniosek: Punkt [-1 1 1] jest zbieżny do punktu [-1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-55,0	53,0
+-55,0	0,0	41,0
+53,0	41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+2,5 -95,5 12,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -110
+
+Krok 2
+Potencjał wejściowy:
+108,5 -13,5 12,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -133
+Wniosek: Punkt [1 -1 -1] jest zbieżny do punktu [1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-55,0	53,0
+-55,0	0,0	41,0
+53,0	41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+108,5 -13,5 12,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -133
+Wniosek: Punkt [1 -1 1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-55,0	53,0
+-55,0	0,0	41,0
+53,0	41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-107,5 -95,5 94,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -298
+
+Krok 2
+Potencjał wejściowy:
+108,5 96,5 -93,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -298
+Wniosek: Punkt [1 1 -1] tworzy w cykl [1 1 -1] <-> [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	-55,0	53,0
+-55,0	0,0	41,0
+53,0	41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-1,5 -13,5 94,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -109
+
+Krok 2
+Potencjał wejściowy:
+108,5 96,5 -93,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -298
+
+Krok 3
+Potencjał wejściowy:
+-107,5 -95,5 94,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(3) = -298
+Wniosek: Punkt [1 1 1] wpada w cykl [-1 -1 1] <-> [1 1 -1]
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 2 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	23,0	54,0
+23,0	0,0	2,0
+54,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-76,5 -24,5 -55,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -161
+Wniosek: Punkt [-1 -1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	23,0	54,0
+23,0	0,0	2,0
+54,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+31,5 -20,5 -55,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -109
+
+Krok 2
+Potencjał wejściowy:
+-76,5 21,5 52,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -150
+
+Krok 3
+Potencjał wejściowy:
+77,5 -20,5 -51,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(3) = -150
+Wniosek: Punkt [-1 -1 1] wpada w cykl [1 -1 -1] <-> [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	23,0	54,0
+23,0	0,0	2,0
+54,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-30,5 -24,5 -51,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -110
+
+Krok 2
+Potencjał wejściowy:
+-76,5 -24,5 -55,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -161
+Wniosek: Punkt [-1 1 -1] jest zbieżny do punktu [-1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	23,0	54,0
+23,0	0,0	2,0
+54,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+77,5 -20,5 -51,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -150
+
+Krok 2
+Potencjał wejściowy:
+-76,5 21,5 52,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -150
+Wniosek: Punkt [-1 1 1] tworzy w cykl [-1 1 1] <-> [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	23,0	54,0
+23,0	0,0	2,0
+54,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-76,5 21,5 52,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -150
+
+Krok 2
+Potencjał wejściowy:
+77,5 -20,5 -51,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -150
+Wniosek: Punkt [1 -1 -1] tworzy w cykl [1 -1 -1] <-> [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	23,0	54,0
+23,0	0,0	2,0
+54,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+31,5 25,5 52,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -106
+
+Krok 2
+Potencjał wejściowy:
+77,5 25,5 56,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -155
+Wniosek: Punkt [1 -1 1] jest zbieżny do punktu [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	23,0	54,0
+23,0	0,0	2,0
+54,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-30,5 21,5 56,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -107
+
+Krok 2
+Potencjał wejściowy:
+77,5 -20,5 -51,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -150
+
+Krok 3
+Potencjał wejściowy:
+-76,5 21,5 52,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(3) = -150
+Wniosek: Punkt [1 1 -1] wpada w cykl [-1 1 1] <-> [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	23,0	54,0
+23,0	0,0	2,0
+54,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+77,5 25,5 56,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -155
+Wniosek: Punkt [1 1 1] jest stały!
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 3 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	56,0	24,0
+56,0	0,0	-69,0
+24,0	-69,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-79,5 13,5 45,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -139
+
+Krok 2
+Potencjał wejściowy:
+80,5 -124,5 -92,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -298
+
+Krok 3
+Potencjał wejściowy:
+-79,5 125,5 93,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(3) = -298
+Wniosek: Punkt [-1 -1 -1] wpada w cykl [-1 1 1] <-> [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	56,0	24,0
+56,0	0,0	-69,0
+24,0	-69,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-31,5 -124,5 45,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -203
+Wniosek: Punkt [-1 -1 1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	56,0	24,0
+56,0	0,0	-69,0
+24,0	-69,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+32,5 13,5 -92,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -138
+
+Krok 2
+Potencjał wejściowy:
+32,5 125,5 -44,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -201
+Wniosek: Punkt [-1 1 -1] jest zbieżny do punktu [1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	56,0	24,0
+56,0	0,0	-69,0
+24,0	-69,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+80,5 -124,5 -92,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -298
+
+Krok 2
+Potencjał wejściowy:
+-79,5 125,5 93,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -298
+Wniosek: Punkt [-1 1 1] tworzy w cykl [-1 1 1] <-> [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	56,0	24,0
+56,0	0,0	-69,0
+24,0	-69,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-79,5 125,5 93,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -298
+
+Krok 2
+Potencjał wejściowy:
+80,5 -124,5 -92,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -298
+Wniosek: Punkt [1 -1 -1] tworzy w cykl [1 -1 -1] <-> [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	56,0	24,0
+56,0	0,0	-69,0
+24,0	-69,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-31,5 -12,5 93,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -138
+
+Krok 2
+Potencjał wejściowy:
+-31,5 -124,5 45,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -203
+Wniosek: Punkt [1 -1 1] jest zbieżny do punktu [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	56,0	24,0
+56,0	0,0	-69,0
+24,0	-69,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+32,5 125,5 -44,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -201
+Wniosek: Punkt [1 1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	56,0	24,0
+56,0	0,0	-69,0
+24,0	-69,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+80,5 -12,5 -44,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -137
+
+Krok 2
+Potencjał wejściowy:
+-79,5 125,5 93,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -298
+
+Krok 3
+Potencjał wejściowy:
+80,5 -124,5 -92,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(3) = -298
+Wniosek: Punkt [1 1 1] wpada w cykl [1 -1 -1] <-> [-1 1 1]
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 4 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	88,0	79,0
+88,0	0,0	-82,0
+79,0	-82,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-166,5 -5,5 3,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -178
+
+Krok 2
+Potencjał wejściowy:
+-8,5 -169,5 3,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -183
+Wniosek: Punkt [-1 -1 -1] jest zbieżny do punktu [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	88,0	79,0
+88,0	0,0	-82,0
+79,0	-82,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-8,5 -169,5 3,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -183
+Wniosek: Punkt [-1 -1 1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	88,0	79,0
+88,0	0,0	-82,0
+79,0	-82,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+9,5 -5,5 -160,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -177
+
+Krok 2
+Potencjał wejściowy:
+-166,5 170,5 161,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -498
+
+Krok 3
+Potencjał wejściowy:
+167,5 -169,5 -160,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(3) = -498
+Wniosek: Punkt [-1 1 -1] wpada w cykl [1 -1 -1] <-> [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	88,0	79,0
+88,0	0,0	-82,0
+79,0	-82,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+167,5 -169,5 -160,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -498
+
+Krok 2
+Potencjał wejściowy:
+-166,5 170,5 161,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -498
+Wniosek: Punkt [-1 1 1] tworzy w cykl [-1 1 1] <-> [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	88,0	79,0
+88,0	0,0	-82,0
+79,0	-82,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-166,5 170,5 161,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -498
+
+Krok 2
+Potencjał wejściowy:
+167,5 -169,5 -160,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -498
+Wniosek: Punkt [1 -1 -1] tworzy w cykl [1 -1 -1] <-> [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	88,0	79,0
+88,0	0,0	-82,0
+79,0	-82,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-8,5 6,5 161,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -175
+
+Krok 2
+Potencjał wejściowy:
+167,5 -169,5 -160,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -498
+
+Krok 3
+Potencjał wejściowy:
+-166,5 170,5 161,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(3) = -498
+Wniosek: Punkt [1 -1 1] wpada w cykl [-1 1 1] <-> [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	88,0	79,0
+88,0	0,0	-82,0
+79,0	-82,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+9,5 170,5 -2,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -181
+Wniosek: Punkt [1 1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	88,0	79,0
+88,0	0,0	-82,0
+79,0	-82,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+167,5 6,5 -2,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -174
+
+Krok 2
+Potencjał wejściowy:
+9,5 170,5 -2,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -181
+Wniosek: Punkt [1 1 1] jest zbieżny do punktu [1 1 -1]
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 5 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	98,0	35,0
+98,0	0,0	20,0
+35,0	20,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-132,5 -117,5 -54,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -309
+Wniosek: Punkt [-1 -1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	98,0	35,0
+98,0	0,0	20,0
+35,0	20,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-62,5 -77,5 -54,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -198
+
+Krok 2
+Potencjał wejściowy:
+-132,5 -117,5 -54,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -309
+Wniosek: Punkt [-1 -1 1] jest zbieżny do punktu [-1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	98,0	35,0
+98,0	0,0	20,0
+35,0	20,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+63,5 -117,5 -14,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -197
+
+Krok 2
+Potencjał wejściowy:
+-132,5 78,5 15,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -226
+
+Krok 3
+Potencjał wejściowy:
+133,5 -77,5 -14,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(3) = -226
+Wniosek: Punkt [-1 1 -1] wpada w cykl [1 -1 -1] <-> [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	98,0	35,0
+98,0	0,0	20,0
+35,0	20,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+133,5 -77,5 -14,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -226
+
+Krok 2
+Potencjał wejściowy:
+-132,5 78,5 15,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -226
+Wniosek: Punkt [-1 1 1] tworzy w cykl [-1 1 1] <-> [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	98,0	35,0
+98,0	0,0	20,0
+35,0	20,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-132,5 78,5 15,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -226
+
+Krok 2
+Potencjał wejściowy:
+133,5 -77,5 -14,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -226
+Wniosek: Punkt [1 -1 -1] tworzy w cykl [1 -1 -1] <-> [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	98,0	35,0
+98,0	0,0	20,0
+35,0	20,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-62,5 118,5 15,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -195
+
+Krok 2
+Potencjał wejściowy:
+133,5 -77,5 -14,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -226
+
+Krok 3
+Potencjał wejściowy:
+-132,5 78,5 15,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(3) = -226
+Wniosek: Punkt [1 -1 1] wpada w cykl [-1 1 1] <-> [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	98,0	35,0
+98,0	0,0	20,0
+35,0	20,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+63,5 78,5 55,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -194
+
+Krok 2
+Potencjał wejściowy:
+133,5 118,5 55,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -303
+Wniosek: Punkt [1 1 -1] jest zbieżny do punktu [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	98,0	35,0
+98,0	0,0	20,0
+35,0	20,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+133,5 118,5 55,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -303
+Wniosek: Punkt [1 1 1] jest stały!
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 6 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-30,0	-20,0
+-30,0	0,0	25,0
+-20,0	25,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+50,5 5,5 -4,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -61
+
+Krok 2
+Potencjał wejściowy:
+-9,5 -54,5 5,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -70
+
+Krok 3
+Potencjał wejściowy:
+10,5 55,5 -4,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(3) = -70
+Wniosek: Punkt [-1 -1 -1] wpada w cykl [1 1 -1] <-> [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-30,0	-20,0
+-30,0	0,0	25,0
+-20,0	25,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+10,5 55,5 -4,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -70
+
+Krok 2
+Potencjał wejściowy:
+-9,5 -54,5 5,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -70
+Wniosek: Punkt [-1 -1 1] tworzy w cykl [-1 -1 1] <-> [1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-30,0	-20,0
+-30,0	0,0	25,0
+-20,0	25,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-9,5 5,5 45,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -60
+
+Krok 2
+Potencjał wejściowy:
+-49,5 55,5 45,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -149
+Wniosek: Punkt [-1 1 -1] jest zbieżny do punktu [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	-30,0	-20,0
+-30,0	0,0	25,0
+-20,0	25,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-49,5 55,5 45,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -149
+Wniosek: Punkt [-1 1 1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-30,0	-20,0
+-30,0	0,0	25,0
+-20,0	25,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+50,5 -54,5 -44,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -151
+Wniosek: Punkt [1 -1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-30,0	-20,0
+-30,0	0,0	25,0
+-20,0	25,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+10,5 -4,5 -44,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -60
+
+Krok 2
+Potencjał wejściowy:
+50,5 -54,5 -44,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -151
+Wniosek: Punkt [1 -1 1] jest zbieżny do punktu [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-30,0	-20,0
+-30,0	0,0	25,0
+-20,0	25,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-9,5 -54,5 5,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -70
+
+Krok 2
+Potencjał wejściowy:
+10,5 55,5 -4,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -70
+Wniosek: Punkt [1 1 -1] tworzy w cykl [1 1 -1] <-> [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	-30,0	-20,0
+-30,0	0,0	25,0
+-20,0	25,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-49,5 -4,5 5,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -59
+
+Krok 2
+Potencjał wejściowy:
+10,5 55,5 -4,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -70
+
+Krok 3
+Potencjał wejściowy:
+-9,5 -54,5 5,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(3) = -70
+Wniosek: Punkt [1 1 1] wpada w cykl [-1 -1 1] <-> [1 1 -1]
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 7 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-99,0	-6,0
+-99,0	0,0	48,0
+-6,0	48,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+105,5 51,5 -41,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -199
+
+Krok 2
+Potencjał wejściowy:
+-92,5 -146,5 42,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -282
+
+Krok 3
+Potencjał wejściowy:
+93,5 147,5 -41,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(3) = -282
+Wniosek: Punkt [-1 -1 -1] wpada w cykl [1 1 -1] <-> [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-99,0	-6,0
+-99,0	0,0	48,0
+-6,0	48,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+93,5 147,5 -41,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -282
+
+Krok 2
+Potencjał wejściowy:
+-92,5 -146,5 42,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -282
+Wniosek: Punkt [-1 -1 1] tworzy w cykl [-1 -1 1] <-> [1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-99,0	-6,0
+-99,0	0,0	48,0
+-6,0	48,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-92,5 51,5 54,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -198
+
+Krok 2
+Potencjał wejściowy:
+-104,5 147,5 54,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -305
+Wniosek: Punkt [-1 1 -1] jest zbieżny do punktu [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	-99,0	-6,0
+-99,0	0,0	48,0
+-6,0	48,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-104,5 147,5 54,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -305
+Wniosek: Punkt [-1 1 1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-99,0	-6,0
+-99,0	0,0	48,0
+-6,0	48,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+105,5 -146,5 -53,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -307
+Wniosek: Punkt [1 -1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-99,0	-6,0
+-99,0	0,0	48,0
+-6,0	48,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+93,5 -50,5 -53,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -198
+
+Krok 2
+Potencjał wejściowy:
+105,5 -146,5 -53,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -307
+Wniosek: Punkt [1 -1 1] jest zbieżny do punktu [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-99,0	-6,0
+-99,0	0,0	48,0
+-6,0	48,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-92,5 -146,5 42,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -282
+
+Krok 2
+Potencjał wejściowy:
+93,5 147,5 -41,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -282
+Wniosek: Punkt [1 1 -1] tworzy w cykl [1 1 -1] <-> [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	-99,0	-6,0
+-99,0	0,0	48,0
+-6,0	48,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-104,5 -50,5 42,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -197
+
+Krok 2
+Potencjał wejściowy:
+93,5 147,5 -41,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -282
+
+Krok 3
+Potencjał wejściowy:
+-92,5 -146,5 42,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(3) = -282
+Wniosek: Punkt [1 1 1] wpada w cykl [-1 -1 1] <-> [1 1 -1]
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 8 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	71,0	42,0
+71,0	0,0	3,0
+42,0	3,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-112,5 -73,5 -44,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -235
+Wniosek: Punkt [-1 -1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	71,0	42,0
+71,0	0,0	3,0
+42,0	3,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-28,5 -67,5 -44,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -144
+
+Krok 2
+Potencjał wejściowy:
+-112,5 -73,5 -44,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -235
+Wniosek: Punkt [-1 -1 1] jest zbieżny do punktu [-1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	71,0	42,0
+71,0	0,0	3,0
+42,0	3,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+29,5 -73,5 -38,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -143
+
+Krok 2
+Potencjał wejściowy:
+-112,5 68,5 39,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -220
+
+Krok 3
+Potencjał wejściowy:
+113,5 -67,5 -38,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(3) = -220
+Wniosek: Punkt [-1 1 -1] wpada w cykl [1 -1 -1] <-> [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	71,0	42,0
+71,0	0,0	3,0
+42,0	3,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+113,5 -67,5 -38,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -220
+
+Krok 2
+Potencjał wejściowy:
+-112,5 68,5 39,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -220
+Wniosek: Punkt [-1 1 1] tworzy w cykl [-1 1 1] <-> [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	71,0	42,0
+71,0	0,0	3,0
+42,0	3,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-112,5 68,5 39,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -220
+
+Krok 2
+Potencjał wejściowy:
+113,5 -67,5 -38,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -220
+Wniosek: Punkt [1 -1 -1] tworzy w cykl [1 -1 -1] <-> [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	71,0	42,0
+71,0	0,0	3,0
+42,0	3,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-28,5 74,5 39,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -141
+
+Krok 2
+Potencjał wejściowy:
+113,5 -67,5 -38,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -220
+
+Krok 3
+Potencjał wejściowy:
+-112,5 68,5 39,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(3) = -220
+Wniosek: Punkt [1 -1 1] wpada w cykl [-1 1 1] <-> [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	71,0	42,0
+71,0	0,0	3,0
+42,0	3,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+29,5 68,5 45,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -140
+
+Krok 2
+Potencjał wejściowy:
+113,5 74,5 45,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -229
+Wniosek: Punkt [1 1 -1] jest zbieżny do punktu [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	71,0	42,0
+71,0	0,0	3,0
+42,0	3,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+113,5 74,5 45,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -229
+Wniosek: Punkt [1 1 1] jest stały!
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 9 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-36,0	40,0
+-36,0	0,0	-16,0
+40,0	-16,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-3,5 52,5 -23,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -82
+
+Krok 2
+Potencjał wejściowy:
+-75,5 52,5 -55,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -185
+Wniosek: Punkt [-1 -1 -1] jest zbieżny do punktu [-1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-36,0	40,0
+-36,0	0,0	-16,0
+40,0	-16,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+76,5 20,5 -23,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -120
+
+Krok 2
+Potencjał wejściowy:
+-75,5 -19,5 24,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -120
+Wniosek: Punkt [-1 -1 1] tworzy w cykl [-1 -1 1] <-> [1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-36,0	40,0
+-36,0	0,0	-16,0
+40,0	-16,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-75,5 52,5 -55,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -185
+Wniosek: Punkt [-1 1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	-36,0	40,0
+-36,0	0,0	-16,0
+40,0	-16,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+4,5 20,5 -55,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -79
+
+Krok 2
+Potencjał wejściowy:
+-75,5 -19,5 24,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -120
+
+Krok 3
+Potencjał wejściowy:
+76,5 20,5 -23,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(3) = -120
+Wniosek: Punkt [-1 1 1] wpada w cykl [1 1 -1] <-> [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-36,0	40,0
+-36,0	0,0	-16,0
+40,0	-16,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-3,5 -19,5 56,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -81
+
+Krok 2
+Potencjał wejściowy:
+76,5 20,5 -23,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -120
+
+Krok 3
+Potencjał wejściowy:
+-75,5 -19,5 24,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(3) = -120
+Wniosek: Punkt [1 -1 -1] wpada w cykl [-1 -1 1] <-> [1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-36,0	40,0
+-36,0	0,0	-16,0
+40,0	-16,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+76,5 -51,5 56,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -183
+Wniosek: Punkt [1 -1 1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-36,0	40,0
+-36,0	0,0	-16,0
+40,0	-16,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-75,5 -19,5 24,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -120
+
+Krok 2
+Potencjał wejściowy:
+76,5 20,5 -23,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -120
+Wniosek: Punkt [1 1 -1] tworzy w cykl [1 1 -1] <-> [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	-36,0	40,0
+-36,0	0,0	-16,0
+40,0	-16,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+4,5 -51,5 24,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -78
+
+Krok 2
+Potencjał wejściowy:
+76,5 -51,5 56,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -183
+Wniosek: Punkt [1 1 1] jest zbieżny do punktu [1 -1 1]
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 10 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-28,0	65,0
+-28,0	0,0	-52,0
+65,0	-52,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-36,5 80,5 -12,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -132
+
+Krok 2
+Potencjał wejściowy:
+-92,5 80,5 -116,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -291
+Wniosek: Punkt [-1 -1 -1] jest zbieżny do punktu [-1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-28,0	65,0
+-28,0	0,0	-52,0
+65,0	-52,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+93,5 -23,5 -12,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -131
+
+Krok 2
+Potencjał wejściowy:
+-36,5 24,5 117,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -178
+
+Krok 3
+Potencjał wejściowy:
+37,5 -23,5 -116,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(3) = -178
+Wniosek: Punkt [-1 -1 1] wpada w cykl [1 -1 -1] <-> [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-28,0	65,0
+-28,0	0,0	-52,0
+65,0	-52,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-92,5 80,5 -116,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -291
+Wniosek: Punkt [-1 1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	-28,0	65,0
+-28,0	0,0	-52,0
+65,0	-52,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+37,5 -23,5 -116,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -178
+
+Krok 2
+Potencjał wejściowy:
+-36,5 24,5 117,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -178
+Wniosek: Punkt [-1 1 1] tworzy w cykl [-1 1 1] <-> [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-28,0	65,0
+-28,0	0,0	-52,0
+65,0	-52,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-36,5 24,5 117,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -178
+
+Krok 2
+Potencjał wejściowy:
+37,5 -23,5 -116,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -178
+Wniosek: Punkt [1 -1 -1] tworzy w cykl [1 -1 -1] <-> [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-28,0	65,0
+-28,0	0,0	-52,0
+65,0	-52,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+93,5 -79,5 117,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -289
+Wniosek: Punkt [1 -1 1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-28,0	65,0
+-28,0	0,0	-52,0
+65,0	-52,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-92,5 24,5 13,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -129
+
+Krok 2
+Potencjał wejściowy:
+37,5 -23,5 -116,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -178
+
+Krok 3
+Potencjał wejściowy:
+-36,5 24,5 117,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(3) = -178
+Wniosek: Punkt [1 1 -1] wpada w cykl [-1 1 1] <-> [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	-28,0	65,0
+-28,0	0,0	-52,0
+65,0	-52,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+37,5 -79,5 13,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -128
+
+Krok 2
+Potencjał wejściowy:
+93,5 -79,5 117,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -289
+Wniosek: Punkt [1 1 1] jest zbieżny do punktu [1 -1 1]
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 11 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-80,0	-97,0
+-80,0	0,0	-72,0
+-97,0	-72,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+177,5 152,5 169,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -498
+
+Krok 2
+Potencjał wejściowy:
+-176,5 -151,5 -168,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -498
+Wniosek: Punkt [-1 -1 -1] tworzy w cykl [-1 -1 -1] <-> [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-80,0	-97,0
+-80,0	0,0	-72,0
+-97,0	-72,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-16,5 8,5 169,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -194
+
+Krok 2
+Potencjał wejściowy:
+-176,5 8,5 25,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -209
+Wniosek: Punkt [-1 -1 1] jest zbieżny do punktu [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-80,0	-97,0
+-80,0	0,0	-72,0
+-97,0	-72,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+17,5 152,5 25,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -193
+
+Krok 2
+Potencjał wejściowy:
+-176,5 -151,5 -168,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -498
+
+Krok 3
+Potencjał wejściowy:
+177,5 152,5 169,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(3) = -498
+Wniosek: Punkt [-1 1 -1] wpada w cykl [1 1 1] <-> [-1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	-80,0	-97,0
+-80,0	0,0	-72,0
+-97,0	-72,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-176,5 8,5 25,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -209
+Wniosek: Punkt [-1 1 1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-80,0	-97,0
+-80,0	0,0	-72,0
+-97,0	-72,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+177,5 -7,5 -24,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -211
+Wniosek: Punkt [1 -1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-80,0	-97,0
+-80,0	0,0	-72,0
+-97,0	-72,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-16,5 -151,5 -24,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -195
+
+Krok 2
+Potencjał wejściowy:
+177,5 152,5 169,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -498
+
+Krok 3
+Potencjał wejściowy:
+-176,5 -151,5 -168,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(3) = -498
+Wniosek: Punkt [1 -1 1] wpada w cykl [-1 -1 -1] <-> [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-80,0	-97,0
+-80,0	0,0	-72,0
+-97,0	-72,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+17,5 -7,5 -168,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -194
+
+Krok 2
+Potencjał wejściowy:
+177,5 -7,5 -24,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -211
+Wniosek: Punkt [1 1 -1] jest zbieżny do punktu [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	-80,0	-97,0
+-80,0	0,0	-72,0
+-97,0	-72,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-176,5 -151,5 -168,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -498
+
+Krok 2
+Potencjał wejściowy:
+177,5 152,5 169,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -498
+Wniosek: Punkt [1 1 1] tworzy w cykl [1 1 1] <-> [-1 -1 -1]
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 12 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	66,0	17,0
+66,0	0,0	51,0
+17,0	51,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-82,5 -116,5 -67,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -271
+Wniosek: Punkt [-1 -1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	66,0	17,0
+66,0	0,0	51,0
+17,0	51,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-48,5 -14,5 -67,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -134
+
+Krok 2
+Potencjał wejściowy:
+-82,5 -116,5 -67,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -271
+Wniosek: Punkt [-1 -1 1] jest zbieżny do punktu [-1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	66,0	17,0
+66,0	0,0	51,0
+17,0	51,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+49,5 -116,5 34,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -200
+
+Krok 2
+Potencjał wejściowy:
+-48,5 117,5 -33,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -200
+Wniosek: Punkt [-1 1 -1] tworzy w cykl [-1 1 -1] <-> [1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	66,0	17,0
+66,0	0,0	51,0
+17,0	51,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+83,5 -14,5 34,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -131
+
+Krok 2
+Potencjał wejściowy:
+-48,5 117,5 -33,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -200
+
+Krok 3
+Potencjał wejściowy:
+49,5 -116,5 34,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(3) = -200
+Wniosek: Punkt [-1 1 1] wpada w cykl [1 -1 1] <-> [-1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	66,0	17,0
+66,0	0,0	51,0
+17,0	51,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-82,5 15,5 -33,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -133
+
+Krok 2
+Potencjał wejściowy:
+49,5 -116,5 34,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -200
+
+Krok 3
+Potencjał wejściowy:
+-48,5 117,5 -33,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(3) = -200
+Wniosek: Punkt [1 -1 -1] wpada w cykl [-1 1 -1] <-> [1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	66,0	17,0
+66,0	0,0	51,0
+17,0	51,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-48,5 117,5 -33,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -200
+
+Krok 2
+Potencjał wejściowy:
+49,5 -116,5 34,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -200
+Wniosek: Punkt [1 -1 1] tworzy w cykl [1 -1 1] <-> [-1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	66,0	17,0
+66,0	0,0	51,0
+17,0	51,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+49,5 15,5 68,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -130
+
+Krok 2
+Potencjał wejściowy:
+83,5 117,5 68,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -265
+Wniosek: Punkt [1 1 -1] jest zbieżny do punktu [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	66,0	17,0
+66,0	0,0	51,0
+17,0	51,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+83,5 117,5 68,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -265
+Wniosek: Punkt [1 1 1] jest stały!
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 13 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	11,0	52,0
+11,0	0,0	88,0
+52,0	88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-62,5 -98,5 -139,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -305
+Wniosek: Punkt [-1 -1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	11,0	52,0
+11,0	0,0	88,0
+52,0	88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+41,5 77,5 -139,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -258
+
+Krok 2
+Potencjał wejściowy:
+-40,5 -76,5 140,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -258
+Wniosek: Punkt [-1 -1 1] tworzy w cykl [-1 -1 1] <-> [1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	11,0	52,0
+11,0	0,0	88,0
+52,0	88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-40,5 -98,5 36,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -177
+
+Krok 2
+Potencjał wejściowy:
+41,5 77,5 -139,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -258
+
+Krok 3
+Potencjał wejściowy:
+-40,5 -76,5 140,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(3) = -258
+Wniosek: Punkt [-1 1 -1] wpada w cykl [-1 -1 1] <-> [1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	11,0	52,0
+11,0	0,0	88,0
+52,0	88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+63,5 77,5 36,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -174
+
+Krok 2
+Potencjał wejściowy:
+63,5 99,5 140,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -299
+Wniosek: Punkt [-1 1 1] jest zbieżny do punktu [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	11,0	52,0
+11,0	0,0	88,0
+52,0	88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-62,5 -76,5 -35,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -178
+
+Krok 2
+Potencjał wejściowy:
+-62,5 -98,5 -139,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -305
+Wniosek: Punkt [1 -1 -1] jest zbieżny do punktu [-1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	11,0	52,0
+11,0	0,0	88,0
+52,0	88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+41,5 99,5 -35,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -175
+
+Krok 2
+Potencjał wejściowy:
+-40,5 -76,5 140,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -258
+
+Krok 3
+Potencjał wejściowy:
+41,5 77,5 -139,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(3) = -258
+Wniosek: Punkt [1 -1 1] wpada w cykl [1 1 -1] <-> [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	11,0	52,0
+11,0	0,0	88,0
+52,0	88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-40,5 -76,5 140,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -258
+
+Krok 2
+Potencjał wejściowy:
+41,5 77,5 -139,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -258
+Wniosek: Punkt [1 1 -1] tworzy w cykl [1 1 -1] <-> [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	11,0	52,0
+11,0	0,0	88,0
+52,0	88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+63,5 99,5 140,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -299
+Wniosek: Punkt [1 1 1] jest stały!
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 14 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	34,0	-81,0
+34,0	0,0	1,0
+-81,0	1,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+47,5 -34,5 80,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -163
+
+Krok 2
+Potencjał wejściowy:
+-114,5 35,5 -81,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -232
+
+Krok 3
+Potencjał wejściowy:
+115,5 -34,5 82,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(3) = -232
+Wniosek: Punkt [-1 -1 -1] wpada w cykl [1 -1 1] <-> [-1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	34,0	-81,0
+34,0	0,0	1,0
+-81,0	1,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-114,5 -32,5 80,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -229
+Wniosek: Punkt [-1 -1 1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	34,0	-81,0
+34,0	0,0	1,0
+-81,0	1,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+115,5 -34,5 82,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -232
+
+Krok 2
+Potencjał wejściowy:
+-114,5 35,5 -81,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -232
+Wniosek: Punkt [-1 1 -1] tworzy w cykl [-1 1 -1] <-> [1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	34,0	-81,0
+34,0	0,0	1,0
+-81,0	1,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-46,5 -32,5 82,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -162
+
+Krok 2
+Potencjał wejściowy:
+-114,5 -32,5 80,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -229
+Wniosek: Punkt [-1 1 1] jest zbieżny do punktu [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	34,0	-81,0
+34,0	0,0	1,0
+-81,0	1,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+47,5 33,5 -81,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -162
+
+Krok 2
+Potencjał wejściowy:
+115,5 33,5 -79,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -227
+Wniosek: Punkt [1 -1 -1] jest zbieżny do punktu [1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	34,0	-81,0
+34,0	0,0	1,0
+-81,0	1,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-114,5 35,5 -81,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -232
+
+Krok 2
+Potencjał wejściowy:
+115,5 -34,5 82,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -232
+Wniosek: Punkt [1 -1 1] tworzy w cykl [1 -1 1] <-> [-1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	34,0	-81,0
+34,0	0,0	1,0
+-81,0	1,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+115,5 33,5 -79,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -227
+Wniosek: Punkt [1 1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	34,0	-81,0
+34,0	0,0	1,0
+-81,0	1,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-46,5 35,5 -79,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -161
+
+Krok 2
+Potencjał wejściowy:
+115,5 -34,5 82,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -232
+
+Krok 3
+Potencjał wejściowy:
+-114,5 35,5 -81,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(3) = -232
+Wniosek: Punkt [1 1 1] wpada w cykl [-1 1 -1] <-> [1 -1 1]
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 15 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-60,0	71,0
+-60,0	0,0	33,0
+71,0	33,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-10,5 27,5 -103,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -144
+
+Krok 2
+Potencjał wejściowy:
+-130,5 27,5 -37,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -197
+Wniosek: Punkt [-1 -1 -1] jest zbieżny do punktu [-1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-60,0	71,0
+-60,0	0,0	33,0
+71,0	33,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+131,5 93,5 -103,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -328
+
+Krok 2
+Potencjał wejściowy:
+-130,5 -92,5 104,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -328
+Wniosek: Punkt [-1 -1 1] tworzy w cykl [-1 -1 1] <-> [1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-60,0	71,0
+-60,0	0,0	33,0
+71,0	33,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-130,5 27,5 -37,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -197
+Wniosek: Punkt [-1 1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	-60,0	71,0
+-60,0	0,0	33,0
+71,0	33,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+11,5 93,5 -37,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -141
+
+Krok 2
+Potencjał wejściowy:
+-130,5 -92,5 104,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -328
+
+Krok 3
+Potencjał wejściowy:
+131,5 93,5 -103,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(3) = -328
+Wniosek: Punkt [-1 1 1] wpada w cykl [1 1 -1] <-> [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-60,0	71,0
+-60,0	0,0	33,0
+71,0	33,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-10,5 -92,5 38,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -143
+
+Krok 2
+Potencjał wejściowy:
+131,5 93,5 -103,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -328
+
+Krok 3
+Potencjał wejściowy:
+-130,5 -92,5 104,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(3) = -328
+Wniosek: Punkt [1 -1 -1] wpada w cykl [-1 -1 1] <-> [1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-60,0	71,0
+-60,0	0,0	33,0
+71,0	33,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+131,5 -26,5 38,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -195
+Wniosek: Punkt [1 -1 1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-60,0	71,0
+-60,0	0,0	33,0
+71,0	33,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-130,5 -92,5 104,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -328
+
+Krok 2
+Potencjał wejściowy:
+131,5 93,5 -103,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -328
+Wniosek: Punkt [1 1 -1] tworzy w cykl [1 1 -1] <-> [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	-60,0	71,0
+-60,0	0,0	33,0
+71,0	33,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+11,5 -26,5 104,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -140
+
+Krok 2
+Potencjał wejściowy:
+131,5 -26,5 38,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -195
+Wniosek: Punkt [1 1 1] jest zbieżny do punktu [1 -1 1]
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 16 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-86,0	-78,0
+-86,0	0,0	-41,0
+-78,0	-41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+164,5 127,5 119,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -410
+
+Krok 2
+Potencjał wejściowy:
+-163,5 -126,5 -118,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -410
+Wniosek: Punkt [-1 -1 -1] tworzy w cykl [-1 -1 -1] <-> [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-86,0	-78,0
+-86,0	0,0	-41,0
+-78,0	-41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+8,5 45,5 119,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -171
+
+Krok 2
+Potencjał wejściowy:
+-163,5 -126,5 -118,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -410
+
+Krok 3
+Potencjał wejściowy:
+164,5 127,5 119,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(3) = -410
+Wniosek: Punkt [-1 -1 1] wpada w cykl [1 1 1] <-> [-1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-86,0	-78,0
+-86,0	0,0	-41,0
+-78,0	-41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-7,5 127,5 37,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -172
+
+Krok 2
+Potencjał wejściowy:
+-163,5 45,5 37,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(2) = -245
+Wniosek: Punkt [-1 1 -1] jest zbieżny do punktu [-1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	-86,0	-78,0
+-86,0	0,0	-41,0
+-78,0	-41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-163,5 45,5 37,5
+Potencjał wyjściowy:
+-1,0 1,0 1,0
+
+Energia(1) = -245
+Wniosek: Punkt [-1 1 1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-86,0	-78,0
+-86,0	0,0	-41,0
+-78,0	-41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+164,5 -44,5 -36,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -247
+Wniosek: Punkt [1 -1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-86,0	-78,0
+-86,0	0,0	-41,0
+-78,0	-41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+8,5 -126,5 -36,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(1) = -172
+
+Krok 2
+Potencjał wejściowy:
+164,5 -44,5 -36,5
+Potencjał wyjściowy:
+1,0 -1,0 -1,0
+
+Energia(2) = -247
+Wniosek: Punkt [1 -1 1] jest zbieżny do punktu [1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-86,0	-78,0
+-86,0	0,0	-41,0
+-78,0	-41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-7,5 -44,5 -118,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -173
+
+Krok 2
+Potencjał wejściowy:
+164,5 127,5 119,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -410
+
+Krok 3
+Potencjał wejściowy:
+-163,5 -126,5 -118,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(3) = -410
+Wniosek: Punkt [1 1 -1] wpada w cykl [-1 -1 -1] <-> [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	-86,0	-78,0
+-86,0	0,0	-41,0
+-78,0	-41,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-163,5 -126,5 -118,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -410
+
+Krok 2
+Potencjał wejściowy:
+164,5 127,5 119,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -410
+Wniosek: Punkt [1 1 1] tworzy w cykl [1 1 1] <-> [-1 -1 -1]
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 17 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-30,0	28,0
+-30,0	0,0	-4,0
+28,0	-4,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+2,5 34,5 -23,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -61
+
+Krok 2
+Potencjał wejściowy:
+-57,5 -25,5 24,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -108
+
+Krok 3
+Potencjał wejściowy:
+58,5 26,5 -23,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(3) = -108
+Wniosek: Punkt [-1 -1 -1] wpada w cykl [1 1 -1] <-> [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-30,0	28,0
+-30,0	0,0	-4,0
+28,0	-4,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+58,5 26,5 -23,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(1) = -108
+
+Krok 2
+Potencjał wejściowy:
+-57,5 -25,5 24,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(2) = -108
+Wniosek: Punkt [-1 -1 1] tworzy w cykl [-1 -1 1] <-> [1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-30,0	28,0
+-30,0	0,0	-4,0
+28,0	-4,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-57,5 34,5 -31,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -125
+Wniosek: Punkt [-1 1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	-30,0	28,0
+-30,0	0,0	-4,0
+28,0	-4,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-1,5 26,5 -31,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -60
+
+Krok 2
+Potencjał wejściowy:
+-57,5 34,5 -31,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -125
+Wniosek: Punkt [-1 1 1] jest zbieżny do punktu [-1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-30,0	28,0
+-30,0	0,0	-4,0
+28,0	-4,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+2,5 -25,5 32,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -60
+
+Krok 2
+Potencjał wejściowy:
+58,5 -33,5 32,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -123
+Wniosek: Punkt [1 -1 -1] jest zbieżny do punktu [1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-30,0	28,0
+-30,0	0,0	-4,0
+28,0	-4,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+58,5 -33,5 32,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -123
+Wniosek: Punkt [1 -1 1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-30,0	28,0
+-30,0	0,0	-4,0
+28,0	-4,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-57,5 -25,5 24,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -108
+
+Krok 2
+Potencjał wejściowy:
+58,5 26,5 -23,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -108
+Wniosek: Punkt [1 1 -1] tworzy w cykl [1 1 -1] <-> [-1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	-30,0	28,0
+-30,0	0,0	-4,0
+28,0	-4,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-1,5 -33,5 24,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(1) = -59
+
+Krok 2
+Potencjał wejściowy:
+58,5 26,5 -23,5
+Potencjał wyjściowy:
+1,0 1,0 -1,0
+
+Energia(2) = -108
+
+Krok 3
+Potencjał wejściowy:
+-57,5 -25,5 24,5
+Potencjał wyjściowy:
+-1,0 -1,0 1,0
+
+Energia(3) = -108
+Wniosek: Punkt [1 1 1] wpada w cykl [-1 -1 1] <-> [1 1 -1]
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 18 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	65,0	-31,0
+65,0	0,0	59,0
+-31,0	59,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-33,5 -123,5 -27,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -189
+Wniosek: Punkt [-1 -1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	65,0	-31,0
+65,0	0,0	59,0
+-31,0	59,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-95,5 -5,5 -27,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -132
+
+Krok 2
+Potencjał wejściowy:
+-33,5 -123,5 -27,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -189
+Wniosek: Punkt [-1 -1 1] jest zbieżny do punktu [-1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	65,0	-31,0
+65,0	0,0	59,0
+-31,0	59,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+96,5 -123,5 90,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -310
+
+Krok 2
+Potencjał wejściowy:
+-95,5 124,5 -89,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -310
+Wniosek: Punkt [-1 1 -1] tworzy w cykl [-1 1 -1] <-> [1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	65,0	-31,0
+65,0	0,0	59,0
+-31,0	59,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+34,5 -5,5 90,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -129
+
+Krok 2
+Potencjał wejściowy:
+-95,5 124,5 -89,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -310
+
+Krok 3
+Potencjał wejściowy:
+96,5 -123,5 90,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(3) = -310
+Wniosek: Punkt [-1 1 1] wpada w cykl [1 -1 1] <-> [-1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	65,0	-31,0
+65,0	0,0	59,0
+-31,0	59,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-33,5 6,5 -89,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -131
+
+Krok 2
+Potencjał wejściowy:
+96,5 -123,5 90,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -310
+
+Krok 3
+Potencjał wejściowy:
+-95,5 124,5 -89,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(3) = -310
+Wniosek: Punkt [1 -1 -1] wpada w cykl [-1 1 -1] <-> [1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	65,0	-31,0
+65,0	0,0	59,0
+-31,0	59,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-95,5 124,5 -89,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -310
+
+Krok 2
+Potencjał wejściowy:
+96,5 -123,5 90,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -310
+Wniosek: Punkt [1 -1 1] tworzy w cykl [1 -1 1] <-> [-1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	65,0	-31,0
+65,0	0,0	59,0
+-31,0	59,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+96,5 6,5 28,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -128
+
+Krok 2
+Potencjał wejściowy:
+34,5 124,5 28,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -183
+Wniosek: Punkt [1 1 -1] jest zbieżny do punktu [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	65,0	-31,0
+65,0	0,0	59,0
+-31,0	59,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+34,5 124,5 28,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -183
+Wniosek: Punkt [1 1 1] jest stały!
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 19 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-96,0	-27,0
+-96,0	0,0	-88,0
+-27,0	-88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+123,5 184,5 115,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -422
+
+Krok 2
+Potencjał wejściowy:
+-122,5 -183,5 -114,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -422
+Wniosek: Punkt [-1 -1 -1] tworzy w cykl [-1 -1 -1] <-> [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-96,0	-27,0
+-96,0	0,0	-88,0
+-27,0	-88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+69,5 8,5 115,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -191
+
+Krok 2
+Potencjał wejściowy:
+-122,5 -183,5 -114,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -422
+
+Krok 3
+Potencjał wejściowy:
+123,5 184,5 115,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(3) = -422
+Wniosek: Punkt [-1 -1 1] wpada w cykl [1 1 1] <-> [-1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-96,0	-27,0
+-96,0	0,0	-88,0
+-27,0	-88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-68,5 184,5 -60,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -315
+Wniosek: Punkt [-1 1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	-96,0	-27,0
+-96,0	0,0	-88,0
+-27,0	-88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-122,5 8,5 -60,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -192
+
+Krok 2
+Potencjał wejściowy:
+-68,5 184,5 -60,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -315
+Wniosek: Punkt [-1 1 1] jest zbieżny do punktu [-1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-96,0	-27,0
+-96,0	0,0	-88,0
+-27,0	-88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+123,5 -7,5 61,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -192
+
+Krok 2
+Potencjał wejściowy:
+69,5 -183,5 61,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -313
+Wniosek: Punkt [1 -1 -1] jest zbieżny do punktu [1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-96,0	-27,0
+-96,0	0,0	-88,0
+-27,0	-88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+69,5 -183,5 61,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -313
+Wniosek: Punkt [1 -1 1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-96,0	-27,0
+-96,0	0,0	-88,0
+-27,0	-88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-68,5 -7,5 -114,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -193
+
+Krok 2
+Potencjał wejściowy:
+123,5 184,5 115,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -422
+
+Krok 3
+Potencjał wejściowy:
+-122,5 -183,5 -114,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(3) = -422
+Wniosek: Punkt [1 1 -1] wpada w cykl [-1 -1 -1] <-> [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	-96,0	-27,0
+-96,0	0,0	-88,0
+-27,0	-88,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-122,5 -183,5 -114,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -422
+
+Krok 2
+Potencjał wejściowy:
+123,5 184,5 115,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -422
+Wniosek: Punkt [1 1 1] tworzy w cykl [1 1 1] <-> [-1 -1 -1]
+
+----- Koniec badania! -----
+-------------------------------------------------------------------
+***************** Wygenerowana macierz numer 20 *****************
+-------------------------------------------------------------------
+###################### TRYB SYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-61,0	-40,0
+-61,0	0,0	-85,0
+-40,0	-85,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+101,5 146,5 125,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -372
+
+Krok 2
+Potencjał wejściowy:
+-100,5 -145,5 -124,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -372
+Wniosek: Punkt [-1 -1 -1] tworzy w cykl [-1 -1 -1] <-> [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-61,0	-40,0
+-61,0	0,0	-85,0
+-40,0	-85,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+21,5 -23,5 125,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -170
+
+Krok 2
+Potencjał wejściowy:
+21,5 -145,5 45,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -211
+Wniosek: Punkt [-1 -1 1] jest zbieżny do punktu [1 -1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-61,0	-40,0
+-61,0	0,0	-85,0
+-40,0	-85,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-20,5 146,5 -44,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -213
+Wniosek: Punkt [-1 1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	-61,0	-40,0
+-61,0	0,0	-85,0
+-40,0	-85,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-100,5 -23,5 -44,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -171
+
+Krok 2
+Potencjał wejściowy:
+101,5 146,5 125,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -372
+
+Krok 3
+Potencjał wejściowy:
+-100,5 -145,5 -124,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(3) = -372
+Wniosek: Punkt [-1 1 1] wpada w cykl [-1 -1 -1] <-> [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-61,0	-40,0
+-61,0	0,0	-85,0
+-40,0	-85,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+101,5 24,5 45,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -169
+
+Krok 2
+Potencjał wejściowy:
+-100,5 -145,5 -124,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -372
+
+Krok 3
+Potencjał wejściowy:
+101,5 146,5 125,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(3) = -372
+Wniosek: Punkt [1 -1 -1] wpada w cykl [1 1 1] <-> [-1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-61,0	-40,0
+-61,0	0,0	-85,0
+-40,0	-85,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+21,5 -145,5 45,5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -211
+Wniosek: Punkt [1 -1 1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-61,0	-40,0
+-61,0	0,0	-85,0
+-40,0	-85,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-20,5 24,5 -124,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -170
+
+Krok 2
+Potencjał wejściowy:
+-20,5 146,5 -44,5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -213
+Wniosek: Punkt [1 1 -1] jest zbieżny do punktu [-1 1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	-61,0	-40,0
+-61,0	0,0	-85,0
+-40,0	-85,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-100,5 -145,5 -124,5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -372
+
+Krok 2
+Potencjał wejściowy:
+101,5 146,5 125,5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -372
+Wniosek: Punkt [1 1 1] tworzy w cykl [1 1 1] <-> [-1 -1 -1]
+
+----- Koniec badania! -----
+
+***********########### PODSUMOWANIE ###########***********
+Liczba losowań: 20 
+
+Wektor 	 	 Stały 	 Zbieżny 	 Tworzy cykl 	 Wpada w cykl
+[-1, -1, -1] 	    6       4                  4               6
+[-1, -1,  1] 	    3       6                  7               4
+[-1,  1, -1] 	    7       5                  3               5
+[-1,  1,  1] 	    4       5                  6               5
+[ 1, -1, -1] 	    4       5                  6               5
+[ 1, -1,  1] 	    7       5                  3               5
+[ 1,  1, -1] 	    3       6                  7               4
+[ 1,  1,  1] 	    6       4                  4               6

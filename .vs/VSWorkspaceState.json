@@ -7,9 +7,8 @@
     "\\DMU.Hopfield\\Properties",
     "\\DMU.Hopfield\\Resources",
     "\\DMU.Terminal",
-    "\\DMU.Terminal\\bin",
-    "\\DMU.Terminal\\bin\\Debug"
+    "\\DMU.Terminal\\Raports"
   ],
-  "SelectedNode": "\\DMU.Terminal\\bin\\Debug\\Redirect.txt",
+  "SelectedNode": "\\DMU.Terminal\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

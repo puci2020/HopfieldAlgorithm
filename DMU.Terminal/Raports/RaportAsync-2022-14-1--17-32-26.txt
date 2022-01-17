@@ -1,0 +1,1064 @@
+###################### TRYB ASYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -4
+
+Krok 2
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -4
+
+Krok 3
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(3) = -4
+
+Krok 4
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(4) = -4
+
+Krok 5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(5) = -4
+
+Krok 6
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(6) = -4
+
+Krok 7
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(7) = -4
+
+Krok 8
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(8) = -4
+
+Krok 9
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(9) = -4
+
+Krok 10
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(10) = -4
+
+Krok 11
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(11) = -4
+
+Krok 12
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(12) = -4
+
+Krok 13
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(13) = -4
+
+Krok 14
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(14) = -4
+
+Krok 15
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(15) = -4
+
+Krok 16
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(16) = -4
+
+Krok 17
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(17) = -4
+
+Krok 18
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(18) = -4
+
+Krok 19
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(19) = -4
+
+Krok 20
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(20) = -4
+
+Krok 21
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(21) = -4
+
+Krok 22
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(22) = -4
+
+Krok 23
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(23) = -4
+
+Krok 24
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(24) = -4
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = 2
+
+Krok 2
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -2
+
+Krok 3
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(3) = -2
+
+Krok 4
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(4) = -2
+
+Krok 5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(5) = -2
+
+Krok 6
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(6) = -2
+
+Krok 7
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(7) = -2
+
+Krok 8
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(8) = -2
+
+Krok 9
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(9) = -2
+
+Krok 10
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(10) = -2
+
+Krok 11
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(11) = -2
+
+Krok 12
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(12) = -2
+
+Krok 13
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(13) = -2
+
+Krok 14
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(14) = -2
+
+Krok 15
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(15) = -2
+
+Krok 16
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(16) = -2
+
+Krok 17
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(17) = -2
+
+Krok 18
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(18) = -2
+
+Krok 19
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(19) = -2
+
+Krok 20
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(20) = -2
+
+Krok 21
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(21) = -2
+
+Krok 22
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(22) = -2
+
+Krok 23
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(23) = -2
+
+Krok 24
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(24) = -2
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -2
+
+Krok 2
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -2
+
+Krok 3
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(3) = -2
+
+Krok 4
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(4) = -2
+
+Krok 5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(5) = -2
+
+Krok 6
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(6) = -2
+
+Krok 7
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(7) = -2
+
+Krok 8
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(8) = -2
+
+Krok 9
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(9) = -2
+
+Krok 10
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(10) = -2
+
+Krok 11
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(11) = -2
+
+Krok 12
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(12) = -2
+
+Krok 13
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(13) = -2
+
+Krok 14
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(14) = -2
+
+Krok 15
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(15) = -2
+
+Krok 16
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(16) = -2
+
+Krok 17
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(17) = -2
+
+Krok 18
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(18) = -2
+
+Krok 19
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(19) = -2
+
+Krok 20
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(20) = -2
+
+Krok 21
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(21) = -2
+
+Krok 22
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(22) = -2
+
+Krok 23
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(23) = -2
+
+Krok 24
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(24) = -2
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -2
+
+Krok 2
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -4
+
+Krok 3
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(3) = -4
+
+Krok 4
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(4) = -4
+
+Krok 5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(5) = -4
+
+Krok 6
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(6) = -4
+
+Krok 7
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(7) = -4
+
+Krok 8
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(8) = -4
+
+Krok 9
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(9) = -4
+
+Krok 10
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(10) = -4
+
+Krok 11
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(11) = -4
+
+Krok 12
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(12) = -4
+
+Krok 13
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(13) = -4
+
+Krok 14
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(14) = -4
+
+Krok 15
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(15) = -4
+
+Krok 16
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(16) = -4
+
+Krok 17
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(17) = -4
+
+Krok 18
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(18) = -4
+
+Krok 19
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(19) = -4
+
+Krok 20
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(20) = -4
+
+Krok 21
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(21) = -4
+
+Krok 22
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(22) = -4
+
+Krok 23
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(23) = -4
+
+Krok 24
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(24) = -4
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -2
+
+Krok 2
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -4
+
+Krok 3
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(3) = -4
+
+Krok 4
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(4) = -4
+
+Krok 5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(5) = -4
+
+Krok 6
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(6) = -4
+
+Krok 7
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(7) = -4
+
+Krok 8
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(8) = -4
+
+Krok 9
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(9) = -4
+
+Krok 10
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(10) = -4
+
+Krok 11
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(11) = -4
+
+Krok 12
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(12) = -4
+
+Krok 13
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(13) = -4
+
+Krok 14
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(14) = -4
+
+Krok 15
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(15) = -4
+
+Krok 16
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(16) = -4
+
+Krok 17
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(17) = -4
+
+Krok 18
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(18) = -4
+
+Krok 19
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(19) = -4
+
+Krok 20
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(20) = -4
+
+Krok 21
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(21) = -4
+
+Krok 22
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(22) = -4
+
+Krok 23
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(23) = -4
+
+Krok 24
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(24) = -4
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -2
+
+Krok 2
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(2) = -2
+
+Krok 3
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(3) = -2
+
+Krok 4
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(4) = -2
+
+Krok 5
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(5) = -2
+
+Krok 6
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(6) = -2
+
+Krok 7
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(7) = -2
+
+Krok 8
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(8) = -2
+
+Krok 9
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(9) = -2
+
+Krok 10
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(10) = -2
+
+Krok 11
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(11) = -2
+
+Krok 12
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(12) = -2
+
+Krok 13
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(13) = -2
+
+Krok 14
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(14) = -2
+
+Krok 15
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(15) = -2
+
+Krok 16
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(16) = -2
+
+Krok 17
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(17) = -2
+
+Krok 18
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(18) = -2
+
+Krok 19
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(19) = -2
+
+Krok 20
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(20) = -2
+
+Krok 21
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(21) = -2
+
+Krok 22
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(22) = -2
+
+Krok 23
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(23) = -2
+
+Krok 24
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(24) = -2
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = 2
+
+Krok 2
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(2) = -2
+
+Krok 3
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(3) = -2
+
+Krok 4
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(4) = -2
+
+Krok 5
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(5) = -2
+
+Krok 6
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(6) = -2
+
+Krok 7
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(7) = -2
+
+Krok 8
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(8) = -2
+
+Krok 9
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(9) = -2
+
+Krok 10
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(10) = -2
+
+Krok 11
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(11) = -2
+
+Krok 12
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(12) = -2
+
+Krok 13
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(13) = -2
+
+Krok 14
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(14) = -2
+
+Krok 15
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(15) = -2
+
+Krok 16
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(16) = -2
+
+Krok 17
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(17) = -2
+
+Krok 18
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(18) = -2
+
+Krok 19
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(19) = -2
+
+Krok 20
+Potencjał wyjś

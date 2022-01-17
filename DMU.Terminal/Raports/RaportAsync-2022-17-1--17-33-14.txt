@@ -1,0 +1,377 @@
+###################### TRYB ASYNCHRONICZNY ######################
+------------------------ Wektor numer 1 ------------------------
+Badany wektor:
+ -1,0 -1,0 -1,0
+Badany wektor:
+ -1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-2   NW   NW
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -4
+
+Krok 2
+Potencjał wejściowy:
+NW   -1   NW
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -4
+
+Krok 3
+Potencjał wejściowy:
+NW   NW   -5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(3) = -4
+Wniosek: Punkt [-1 -1 -1] jest stały!
+
+----- Koniec badania! -----
+------------------------ Wektor numer 2 ------------------------
+Badany wektor:
+ -1,0 -1,0 1,0
+Badany wektor:
+ -1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+4   NW   NW
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -2
+
+Krok 2
+Potencjał wejściowy:
+NW   1   NW
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -4
+
+Krok 3
+Potencjał wejściowy:
+NW   NW   5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(3) = -4
+
+Krok 4
+Potencjał wejściowy:
+2   NW   NW
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(4) = -4
+
+Krok 5
+Potencjał wejściowy:
+NW   1   NW
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(5) = -4
+Wniosek: Punkt [-1 -1 1] jest zbieżny do punktu [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 3 ------------------------
+Badany wektor:
+ -1,0 1,0 -1,0
+Badany wektor:
+ -1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-4   NW   NW
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -2
+
+Krok 2
+Potencjał wejściowy:
+NW   -1   NW
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -4
+
+Krok 3
+Potencjał wejściowy:
+NW   NW   -5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(3) = -4
+
+Krok 4
+Potencjał wejściowy:
+-2   NW   NW
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(4) = -4
+
+Krok 5
+Potencjał wejściowy:
+NW   -1   NW
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(5) = -4
+Wniosek: Punkt [-1 1 -1] jest zbieżny do punktu [-1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 4 ------------------------
+Badany wektor:
+ -1,0 1,0 1,0
+Badany wektor:
+ -1,0 1,0 1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+2   NW   NW
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -4
+
+Krok 2
+Potencjał wejściowy:
+NW   1   NW
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -4
+
+Krok 3
+Potencjał wejściowy:
+NW   NW   5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(3) = -4
+
+Krok 4
+Potencjał wejściowy:
+2   NW   NW
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(4) = -4
+Wniosek: Punkt [-1 1 1] jest zbieżny do punktu [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 5 ------------------------
+Badany wektor:
+ 1,0 -1,0 -1,0
+Badany wektor:
+ 1,0 -1,0 -1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-2   NW   NW
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(1) = -4
+
+Krok 2
+Potencjał wejściowy:
+NW   -1   NW
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -4
+
+Krok 3
+Potencjał wejściowy:
+NW   NW   -5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(3) = -4
+
+Krok 4
+Potencjał wejściowy:
+-2   NW   NW
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(4) = -4
+Wniosek: Punkt [1 -1 -1] jest zbieżny do punktu [-1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 6 ------------------------
+Badany wektor:
+ 1,0 -1,0 1,0
+Badany wektor:
+ 1,0 -1,0 1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+4   NW   NW
+Potencjał wyjściowy:
+1,0 -1,0 1,0
+
+Energia(1) = -2
+
+Krok 2
+Potencjał wejściowy:
+NW   1   NW
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -4
+
+Krok 3
+Potencjał wejściowy:
+NW   NW   5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(3) = -4
+
+Krok 4
+Potencjał wejściowy:
+2   NW   NW
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(4) = -4
+
+Krok 5
+Potencjał wejściowy:
+NW   1   NW
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(5) = -4
+Wniosek: Punkt [1 -1 1] jest zbieżny do punktu [1 1 1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 7 ------------------------
+Badany wektor:
+ 1,0 1,0 -1,0
+Badany wektor:
+ 1,0 1,0 -1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+-4   NW   NW
+Potencjał wyjściowy:
+-1,0 1,0 -1,0
+
+Energia(1) = -2
+
+Krok 2
+Potencjał wejściowy:
+NW   -1   NW
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(2) = -4
+
+Krok 3
+Potencjał wejściowy:
+NW   NW   -5
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(3) = -4
+
+Krok 4
+Potencjał wejściowy:
+-2   NW   NW
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(4) = -4
+
+Krok 5
+Potencjał wejściowy:
+NW   -1   NW
+Potencjał wyjściowy:
+-1,0 -1,0 -1,0
+
+Energia(5) = -4
+Wniosek: Punkt [1 1 -1] jest zbieżny do punktu [-1 -1 -1]
+
+----- Koniec badania! -----
+------------------------ Wektor numer 8 ------------------------
+Badany wektor:
+ 1,0 1,0 1,0
+Badany wektor:
+ 1,0 1,0 1,0
+Macierz wag:
+ 0,0	-1,0	3,0
+-1,0	0,0	2,0
+3,0	2,0	0,0
+
+
+Krok 1
+Potencjał wejściowy:
+2   NW   NW
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(1) = -4
+
+Krok 2
+Potencjał wejściowy:
+NW   1   NW
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(2) = -4
+
+Krok 3
+Potencjał wejściowy:
+NW   NW   5
+Potencjał wyjściowy:
+1,0 1,0 1,0
+
+Energia(3) = -4
+Wniosek: Punkt [1 1 1] jest stały!
+
+----- Koniec badania! -----

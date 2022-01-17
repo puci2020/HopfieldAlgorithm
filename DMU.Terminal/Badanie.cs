@@ -9,17 +9,22 @@ namespace DMU.Terminal {
       StreamWriter file = null;
       double[] matrixData = {};
       double[,] summary = new double[8, 4]{{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}};
-
+            double [] exampleData = {0, 1 ,2, 1, 0, 3, 2, 3, 0 };
+      Matrix example = new Matrix(exampleData, 3, 3);
       int dimension = 3;
       string randFileName = "../../Raports/RaportRandom-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
-      string syncFileName = "../../Raports/RaportSync-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
+      string syncAsyncFileName = "../../Raports/RaportSync-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
+      //string asyncFileName = "../../Raports/RaportAsync-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
 
       if (mode == "rand") {
         file = new StreamWriter(randFileName);
       }
       if(mode == "sync") {
-        file = new StreamWriter(syncFileName);
-        Console.WriteLine("Podaj elementy macierzy oddzielając je znakiem spacji. Liczba elementów musi być równa {0}", dimension * dimension);
+        file = new StreamWriter(syncAsyncFileName, append: true);
+        Console.WriteLine("Podaj elementy macierzy symetrycznej oddzielając je znakiem spacji. Liczba elementów musi być równa {0}", dimension * dimension);
+                Console.WriteLine("Wprowadź dane według wzoru:");
+                Console.WriteLine("Macierz symetryczna: \n {0}", example.ToString("F1", "\t", "\n"));
+                Console.WriteLine("Należy wprowadzić: 0, 1, 2, 1, 0, 3, 2, 3, 0");
         string[] array = Console.ReadLine().Split(' ');
         matrixData = Array.ConvertAll(array, el => double.Parse(el));
         if (matrixData.Length != dimension * dimension) {
@@ -27,6 +32,17 @@ namespace DMU.Terminal {
           Console.ReadLine();
         }
       }
+      /*if(mode == "async")
+        {
+            file = new StreamWriter(asyncFileName);
+            Console.WriteLine("Podaj elementy macierzy oddzielając je znakiem spacji. Liczba elementów musi być równa {0}", dimension * dimension);
+            string[] array = Console.ReadLine().Split(' ');
+            matrixData = Array.ConvertAll(array, el => double.Parse(el));
+            if (matrixData.Length != dimension * dimension) {
+                Console.WriteLine("Błędnie podana macierz. Uruchom prorgam jeszcze raz");
+                Console.ReadLine();
+            }
+        }*/
 
       //Console.WriteLine("Podaj wymiar macierzy. Jeśli macierz 3x3 wpisz 3 itd.");
       //int dimension = Convert.ToInt32(Console.ReadLine());
@@ -48,8 +64,22 @@ namespace DMU.Terminal {
         }
         return -energy+pom;
       }
+
+     double getEnergyAsync(Matrix matrix, Matrix vn)
+    {
+        double energy = 0.0;
+                
+        for(int i = 0; i < dimension;i++) {
+            for(int j = 0; j < dimension;j++) {
+                energy += matrix.GetElement(i, j) * vn.GetElement(0, i) * vn.GetElement(0, j);
+            }
+        }
+        return (-0.5) * energy;
+    }
+
       double [,] vectors_I = new double[,] { {-1,-1,-1 }, { -1,-1,1 }, {-1,1,-1}, { -1,1,1}, { 1,-1,-1}, { 1,-1,1}, { 1,1,-1}, { 1,1,1} };
-      void runHopfieldSync(double[] data) {
+      
+    void runHopfieldSync(double[] data) {
 
       Matrix I = new Matrix(new double[] {
           0.5,
@@ -61,8 +91,8 @@ namespace DMU.Terminal {
         Console.WriteLine("###################### TRYB SYNCHRONICZNY ######################");
 
         for (int i = 0; i < vectors_I.GetLength(0); i++) {
-          file.WriteLine("------------------------ Wektor numer {0} ------------------------", i + 1);
-          Console.WriteLine("------------------------ Wektor numer {0} ------------------------", i + 1);
+          file.WriteLine("------------------------ Badanie numer {0} ------------------------", i + 1);
+          Console.WriteLine("------------------------ Badanie numer {0} ------------------------", i + 1);
           Matrix V0 = new Matrix(new double[] {
             vectors_I[i, 0], vectors_I[i, 1], vectors_I[i, 2]
           }, true);
@@ -158,6 +188,138 @@ namespace DMU.Terminal {
         }       
       }
 
+    void runHopfieldAsync(double[] data) {
+
+        file.WriteLine("###################### TRYB ASYNCHRONICZNY ######################");
+        Console.WriteLine("###################### TRYB ASYNCHRONICZNY ######################");
+
+        for (int i = 0; i < vectors_I.GetLength(0); i++) {
+          file.WriteLine("------------------------ Badanie numer {0} ------------------------", i + 1);
+          Console.WriteLine("------------------------ Badanie numer {0} ------------------------", i + 1);
+          Matrix V0 = new Matrix(new double[] {
+            vectors_I[i, 0], vectors_I[i, 1], vectors_I[i, 2]
+          }, true);
+        
+
+          Matrix W = new Matrix(data, dimension, dimension);
+          file.WriteLine("Badany wektor:\n {0}", V0.ToString("F1", "\n", " "));
+          Console.WriteLine("Badany wektor:\n {0}", V0.ToString("F1", "\n", " "));
+          file.WriteLine("Badany wektor:\n {0}", V0.ToString("F1", "\n", " "));
+          Console.WriteLine("Macierz wag:\n {0}", W.ToString("F1", "\t", "\n"));
+          file.WriteLine("Macierz wag:\n {0}", W.ToString("F1", "\t", "\n"));
+
+          bool repeat = true;
+          int index = 1;
+          int index2 = 1;
+          
+
+          double energy_V, energy_V_1;
+
+          Matrix Un;
+          Matrix Vn_3, Vn_2, Vn_1;
+          Matrix Vn = null;
+
+          Vn_1 = V0;
+          Vn_2 = null;
+          Vn_3 = null;
+
+
+          do {
+            
+            Console.WriteLine("\nKrok {0}", index);
+            file.WriteLine("\nKrok {0}", index);
+            Un = Matrix.Multiply(W, Vn_1);
+
+            if(index2 == 1)
+            {
+                Console.WriteLine("Potencjał wejściowy:\n{0}   NW   NW", Un.GetElement(0, 0));
+                file.WriteLine("Potencjał wejściowy:\n{0}   NW   NW", Un.GetElement(0, 0));
+                Vn = new Matrix(new double[] { Un.GetElement(0, 0), Vn_1.GetElement(0, 1), Vn_1.GetElement(0, 2) }, true);
+            }
+            if(index2 == 2)
+            {
+                Console.WriteLine("Potencjał wejściowy:\nNW   {0}   NW", Un.GetElement(0, 1));
+                file.WriteLine("Potencjał wejściowy:\nNW   {0}   NW", Un.GetElement(0, 1));
+                Vn = new Matrix(new double[] { Vn_1.GetElement(0, 0), Un.GetElement(0, 1), Vn_1.GetElement(0, 2) }, true);
+            }
+            if(index2 == 3)
+            {
+                Console.WriteLine("Potencjał wejściowy:\nNW   NW   {0}", Un.GetElement(0, 2));
+                file.WriteLine("Potencjał wejściowy:\nNW   NW   {0}", Un.GetElement(0, 2));
+                Vn = new Matrix(new double[] { Vn_1.GetElement(0, 0), Vn_1.GetElement(0, 1), Un.GetElement(0, 2) }, true);
+            }
+
+            Vn = Vn.ToBiPolar();
+            Console.WriteLine("Potencjał wyjściowy:\n{0}", Vn.ToString("F1", "\n", " "));
+            file.WriteLine("Potencjał wyjściowy:\n{0}", Vn.ToString("F1", "\n", " "));
+            
+            energy_V = getEnergyAsync(W, Vn);
+
+            Console.WriteLine("\nEnergia({0}) = {1}", index, energy_V);
+            file.WriteLine("\nEnergia({0}) = {1}", index, energy_V);
+
+            if(index == 3)
+            {
+                if(Vn_2.Equals(Vn_1) && Vn_1.Equals(Vn) && Vn.Equals(V0) )
+                {
+                    Console.WriteLine("Wniosek: Punkt [{0}] jest stały!", Vn.ToString("F0", "\n", " "));
+                    file.WriteLine("Wniosek: Punkt [{0}] jest stały!", Vn.ToString("F0", "\n", " "));
+                    summary[i, 0]++;
+                    repeat = false;
+                    Console.WriteLine("\n----- Koniec badania! -----");
+                    file.WriteLine("\n----- Koniec badania! -----");
+                }
+            }
+
+            else if(index > 3)
+            {
+                if(Vn_3.Equals(Vn_2) && Vn_2.Equals(Vn_1) && Vn_1.Equals(Vn))
+                {
+                    Console.WriteLine("Wniosek: Punkt [{0}] jest zbieżny do punktu [{1}]", V0.ToString("F0", "\n", " "), Vn.ToString("F0", "\n", " "));
+                    file.WriteLine("Wniosek: Punkt [{0}] jest zbieżny do punktu [{1}]", V0.ToString("F0", "\n", " "), Vn.ToString("F0", "\n", " "));
+                    summary[i, 0]++;
+                    repeat = false;
+                    Console.WriteLine("\n----- Koniec badania! -----");
+                    file.WriteLine("\n----- Koniec badania! -----");
+                }
+            }
+         
+
+            index++;
+            if(index2 == 3)
+            {
+                index2 = 1;
+            }else
+            {
+                index2++;
+            }
+            
+
+            if (index == (dimension * System.Math.Pow(2, dimension)) + 1) {
+              repeat = false;
+              Console.WriteLine("\n----- Koniec badania! -----");
+              file.WriteLine("\n----- Koniec badania! -----");
+            }
+            if(index == 1)
+            {
+                Vn_1 = Vn;
+            }
+            if (index2 == 2)
+            {
+                Vn_2 = Vn_1;
+                Vn_1 = Vn;
+            }
+            if (index >= 3)
+            {
+                Vn_3 = Vn_2;
+                Vn_2 = Vn_1;
+                Vn_1 = Vn;
+            }
+   
+          } while (repeat);
+        }       
+      }
+
       if (mode == "rand") {
         Random rnd = new Random();
 
@@ -192,7 +354,12 @@ namespace DMU.Terminal {
       }
       if (mode == "sync") {
         runHopfieldSync(matrixData);
+        runHopfieldAsync(matrixData);
       }
+      /*if(mode == "async")
+        {
+            runHopfieldAsync(matrixData);
+        }*/
       Console.WriteLine("Wciśnij Enter, aby zapisać wyniki do pliku");
       Console.ReadLine();
       file.Close();

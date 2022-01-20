@@ -12,8 +12,10 @@ namespace DMU.Terminal {
             double [] exampleData = {0, 1 ,2, 1, 0, 3, 2, 3, 0 };
       Matrix example = new Matrix(exampleData, 3, 3);
       int dimension = 3;
-      string randFileName = "../../Raports/RaportRandom-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
-      string syncAsyncFileName = "../../Raports/RaportSync-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
+      //string randFileName = "../../Raports/RaportRandom-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
+      string randFileName = "./RaportRandom-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
+      //string syncAsyncFileName = "../../Raports/RaportSync-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
+      string syncAsyncFileName = "./RaportSync-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
       //string asyncFileName = "../../Raports/RaportAsync-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
 
       if (mode == "rand") {
@@ -24,7 +26,7 @@ namespace DMU.Terminal {
         Console.WriteLine("Podaj elementy macierzy symetrycznej oddzielając je znakiem spacji. Liczba elementów musi być równa {0}", dimension * dimension);
                 Console.WriteLine("Wprowadź dane według wzoru:");
                 Console.WriteLine("Macierz symetryczna: \n {0}", example.ToString("F1", "\t", "\n"));
-                Console.WriteLine("Należy wprowadzić: 0, 1, 2, 1, 0, 3, 2, 3, 0");
+                Console.WriteLine("Należy wprowadzić: 0 1 2 1 0 3 2 3 0");
         string[] array = Console.ReadLine().Split(' ');
         matrixData = Array.ConvertAll(array, el => double.Parse(el));
         if (matrixData.Length != dimension * dimension) {
@@ -188,10 +190,14 @@ namespace DMU.Terminal {
         }       
       }
 
-    void runHopfieldAsync(double[] data) {
+    void runHopfieldAsync(double[] data, int[,] sequences, int sequence) {
+        
 
         file.WriteLine("###################### TRYB ASYNCHRONICZNY ######################");
         Console.WriteLine("###################### TRYB ASYNCHRONICZNY ######################");
+
+            Console.WriteLine("\nWybrana sekwencja - n{0}, n{1}, n{2}\n", sequences[sequence-1,0], sequences[sequence-1,1], sequences[sequence-1,2]);
+            file.WriteLine("\nWybrana sekwencja - n{0}, n{1}, n{2}\n", sequences[sequence-1,0], sequences[sequence-1,1], sequences[sequence-1,2]);
 
         for (int i = 0; i < vectors_I.GetLength(0); i++) {
           file.WriteLine("------------------------ Badanie numer {0} ------------------------", i + 1);
@@ -230,23 +236,67 @@ namespace DMU.Terminal {
             file.WriteLine("\nKrok {0}", index);
             Un = Matrix.Multiply(W, Vn_1);
 
+            
+
             if(index2 == 1)
             {
-                Console.WriteLine("Potencjał wejściowy:\n{0}   NW   NW", Un.GetElement(0, 0));
-                file.WriteLine("Potencjał wejściowy:\n{0}   NW   NW", Un.GetElement(0, 0));
-                Vn = new Matrix(new double[] { Un.GetElement(0, 0), Vn_1.GetElement(0, 1), Vn_1.GetElement(0, 2) }, true);
+                    if(sequences[sequence-1,0] == 1)
+                    {
+                        Console.WriteLine("Potencjał wejściowy:\n{0}   NW   NW", Un.GetElement(0, sequences[sequence-1,0]-1));
+                        file.WriteLine("Potencjał wejściowy:\n{0}   NW   NW", Un.GetElement(0, sequences[sequence-1,0]-1));
+                        Vn = new Matrix(new double[] { Un.GetElement(0, sequences[sequence-1,0]-1), Vn_1.GetElement(0, 1), Vn_1.GetElement(0, 2) }, true);
+                    } else if(sequences[sequence-1,0] == 2)
+                    {
+                        Console.WriteLine("Potencjał wejściowy:\nNW   {0}   NW", Un.GetElement(0, sequences[sequence-1,0]-1));
+                        file.WriteLine("Potencjał wejściowy:\nNW   {0}   NW", Un.GetElement(0, sequences[sequence-1,0]-1));
+                        Vn = new Matrix(new double[] { Vn_1.GetElement(0, 0), Un.GetElement(0, sequences[sequence-1,0]-1), Vn_1.GetElement(0, 2) }, true);
+                    }else if(sequences[sequence-1,0] == 3)
+                    {
+                        Console.WriteLine("Potencjał wejściowy:\nNW   NW   {0}", Un.GetElement(0, sequences[sequence-1,0]-1));
+                        file.WriteLine("Potencjał wejściowy:\nNW   NW   {0}", Un.GetElement(0, sequences[sequence-1,0]-1));
+                        Vn = new Matrix(new double[] { Vn_1.GetElement(0, 0), Vn_1.GetElement(0, 1), Un.GetElement(0, sequences[sequence-1,0]-1) }, true);
+                    }
+                //Vn = new Matrix(new double[] { Un.GetElement(0, 0), Vn_1.GetElement(0, 1), Vn_1.GetElement(0, 2) }, true);
             }
             if(index2 == 2)
             {
-                Console.WriteLine("Potencjał wejściowy:\nNW   {0}   NW", Un.GetElement(0, 1));
-                file.WriteLine("Potencjał wejściowy:\nNW   {0}   NW", Un.GetElement(0, 1));
-                Vn = new Matrix(new double[] { Vn_1.GetElement(0, 0), Un.GetElement(0, 1), Vn_1.GetElement(0, 2) }, true);
+                    if(sequences[sequence-1,1] == 1)
+                    {
+                        Console.WriteLine("Potencjał wejściowy:\n{0}   NW   NW", Un.GetElement(0, sequences[sequence-1,1]-1));
+                        file.WriteLine("Potencjał wejściowy:\n{0}   NW   NW", Un.GetElement(0, sequences[sequence-1,1]-1));
+                                 Vn = new Matrix(new double[] { Un.GetElement(0, sequences[sequence-1,1]-1), Vn_1.GetElement(0, 1), Vn_1.GetElement(0, 2) }, true);
+                    } else if(sequences[sequence-1,1] == 2)
+                    {
+                        Console.WriteLine("Potencjał wejściowy:\nNW   {0}   NW", Un.GetElement(0, sequences[sequence-1,1]-1));
+                        file.WriteLine("Potencjał wejściowy:\nNW   {0}   NW", Un.GetElement(0, sequences[sequence-1,1]-1));
+                                 Vn = new Matrix(new double[] {Vn_1.GetElement(0, 0), Un.GetElement(0, sequences[sequence-1,1]-1), Vn_1.GetElement(0, 2) }, true);
+                    }else if(sequences[sequence-1,1] == 3)
+                    {
+                        Console.WriteLine("Potencjał wejściowy:\nNW   NW   {0}", Un.GetElement(0, sequences[sequence-1,1]-1));
+                        file.WriteLine("Potencjał wejściowy:\nNW   NW   {0}", Un.GetElement(0, sequences[sequence-1,1]-1));
+                                 Vn = new Matrix(new double[] { Vn_1.GetElement(0, 0), Vn_1.GetElement(0, 1), Un.GetElement(0, sequences[sequence-1,1]-1) }, true);
+                    }
+                //Vn = new Matrix(new double[] { Vn_1.GetElement(0, 0), Un.GetElement(0, 1), Vn_1.GetElement(0, 2) }, true);
             }
             if(index2 == 3)
             {
-                Console.WriteLine("Potencjał wejściowy:\nNW   NW   {0}", Un.GetElement(0, 2));
-                file.WriteLine("Potencjał wejściowy:\nNW   NW   {0}", Un.GetElement(0, 2));
-                Vn = new Matrix(new double[] { Vn_1.GetElement(0, 0), Vn_1.GetElement(0, 1), Un.GetElement(0, 2) }, true);
+                    if(sequences[sequence-1,2] == 1)
+                    {
+                        Console.WriteLine("Potencjał wejściowy:\n{0}   NW   NW", Un.GetElement(0, sequences[sequence-1,2]-1));
+                        file.WriteLine("Potencjał wejściowy:\n{0}   NW   NW", Un.GetElement(0, sequences[sequence-1,2]-1));
+                                Vn = new Matrix(new double[] { Un.GetElement(0, sequences[sequence-1,2]-1), Vn_1.GetElement(0, 1), Vn_1.GetElement(0, 2) }, true);
+                    } else if(sequences[sequence-1,2] == 2)
+                    {
+                        Console.WriteLine("Potencjał wejściowy:\nNW   {0}   NW", Un.GetElement(0, sequences[sequence-1,2]-1));
+                        file.WriteLine("Potencjał wejściowy:\nNW   {0}   NW", Un.GetElement(0, sequences[sequence-1,2]-1));
+                                Vn = new Matrix(new double[] {Vn_1.GetElement(0, 0), Un.GetElement(0, sequences[sequence-1,2]-1), Vn_1.GetElement(0, 2) }, true);
+                    }else if(sequences[sequence-1,2] == 3)
+                    {
+                        Console.WriteLine("Potencjał wejściowy:\nNW   NW   {0}", Un.GetElement(0, sequences[sequence-1,2]-1));
+                        file.WriteLine("Potencjał wejściowy:\nNW   NW   {0}", Un.GetElement(0, sequences[sequence-1,2]-1));
+                                Vn = new Matrix(new double[] { Vn_1.GetElement(0, 0), Vn_1.GetElement(0, 1), Un.GetElement(0, sequences[sequence-1,2]-1) }, true);
+                    }
+                //Vn = new Matrix(new double[] { Vn_1.GetElement(0, 0), Vn_1.GetElement(0, 1), Un.GetElement(0, 2) }, true);
             }
 
             Vn = Vn.ToBiPolar();
@@ -353,8 +403,29 @@ namespace DMU.Terminal {
         }
       }
       if (mode == "sync") {
+        int [,] sequences = new int [6,3] { { 1,2,3}, { 1,3,2}, { 2,1,3}, { 2,3,1}, { 3,1,2}, { 3,2,1} };
+
+        Console.WriteLine("Wybierz sekwencje trybu asynchronicznego:");
+
+        for (int i = 0; i< sequences.GetLength(0); i++)
+                {
+                    Console.Write("{0} - ", i+1);
+                    for (int j = 0; j < sequences.GetLength(1); j++)
+                    {
+                        Console.Write(" n{0} ", sequences[i, j]);
+                        if(j == 2)
+                        {
+                            Console.WriteLine();
+                        }
+                    }
+                    
+                }
+
+        int sequence = Convert.ToInt32(Console.ReadLine());
+          
+        
         runHopfieldSync(matrixData);
-        runHopfieldAsync(matrixData);
+        runHopfieldAsync(matrixData, sequences, sequence);
       }
       /*if(mode == "async")
         {

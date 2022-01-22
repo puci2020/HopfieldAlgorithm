@@ -15,7 +15,7 @@ namespace DMU.Terminal {
       //string randFileName = "../../Raports/RaportRandom-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
       string randFileName = "./RaportRandom-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
       //string syncAsyncFileName = "../../Raports/RaportSync-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
-      string syncAsyncFileName = "./RaportSync-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
+      string syncAsyncFileName = "./RaportSyncAsync-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
       //string asyncFileName = "../../Raports/RaportAsync-" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".txt";
 
       if (mode == "rand") {

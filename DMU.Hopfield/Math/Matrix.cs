@@ -601,7 +601,7 @@ namespace DMU.Math
         /// <param name="row"></param>
         /// <param name="column"></param>
         /// <returns></returns>
-        public double GetElement(int column, int row)
+        public double GetElement(int row, int column)
         {
             //validate arguments
             if (row >= this.RowCount || row < 0)

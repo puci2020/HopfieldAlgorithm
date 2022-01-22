@@ -6,7 +6,9 @@
     "\\DMU.Hopfield\\NeuralNetwork",
     "\\DMU.Hopfield\\Properties",
     "\\DMU.Hopfield\\Resources",
-    "\\DMU.Terminal"
+    "\\DMU.Terminal",
+    "\\DMU.TestGui"
   ],
+  "SelectedNode": "\\DMU.TestGui\\DMU.TestGui.csproj",
   "PreviewInSolutionExplorer": false
 }

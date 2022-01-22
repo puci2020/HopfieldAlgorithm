@@ -1,0 +1,15 @@
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\bin\Debug\AIF.Samples.exe.config
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\bin\Debug\AIF.Samples.exe
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\bin\Debug\AIF.Samples.pdb
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\bin\Debug\AIF.dll
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\bin\Debug\AIF.pdb
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\obj\Debug\DMU.TestGui.csproj.AssemblyReference.cache
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\obj\Debug\DMU.TestGui.csproj.SuggestedBindingRedirects.cache
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\obj\Debug\DMU.Samples.Hopfield.resources
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\obj\Debug\AIF.Samples.Properties.Resources.resources
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\obj\Debug\DMU.Samples.Main.resources
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\obj\Debug\DMU.TestGui.csproj.GenerateResource.cache
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\obj\Debug\DMU.TestGui.csproj.CoreCompileInputs.cache
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\obj\Debug\DMU.TestGui.csproj.CopyComplete
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\obj\Debug\AIF.Samples.exe
+C:\Users\adamp\Desktop\hopfield-network_gr3\hopfield-network\DMU.TestGui\obj\Debug\AIF.Samples.pdb

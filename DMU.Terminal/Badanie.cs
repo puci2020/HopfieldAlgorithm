@@ -128,8 +128,7 @@ namespace DMU.Terminal {
                 file.WriteLine("\n----- Koniec badania! -----");
               }
             } else if (index <= 2) {    //warunki stopu dla kroku drugiego
-              energy_V_1 = getEnergySync(W, Vn, Vn_1, I);   //przypisanie energii kroku poprzeniego do zmiennej
-              if (!Vn_1.Equals(Vn) && Vn.Equals(V0) && energy_V == energy_V_1) {    //jeśli potencjał wyjściowy z poprzedniego kroku jest różny od obecnego oraz obecny potencjał wyjściowy jset równy wektorowi wejściowemu oraz obecna energia jest równa energii kroku poprzedniego
+              if (!Vn_1.Equals(Vn)  && energy_V == energy_V_1) {    //jeśli potencjał wyjściowy z poprzedniego kroku jest różny od obecnego oraz obecny potencjał wyjściowy jset równy wektorowi wejściowemu oraz obecna energia jest równa energii kroku poprzedniego
                 Console.WriteLine("Wniosek: Punkt [{0}] tworzy cykl [{1}] <-> [{2}]", V0.ToString("F0", "\n", " "), Vn.ToString("F0", "\n", " "), Vn_1.ToString("F0", "\n", " "));
                 file.WriteLine("Wniosek: Punkt [{0}] tworzy w cykl [{1}] <-> [{2}]", V0.ToString("F0", "\n", " "), Vn.ToString("F0", "\n", " "), Vn_1.ToString("F0", "\n", " "));
                 summary[i, 2]++;
@@ -145,8 +144,7 @@ namespace DMU.Terminal {
                 Console.WriteLine("\n----- Koniec badania! -----");
                 file.WriteLine("\n----- Koniec badania! -----");
               }
-            } else {    //warunki stopu dla kolejnych kroków czyli krok 3, 4, 5...
-              energy_V_1 = getEnergySync(W, Vn, Vn_1, I);       //przypisanie energii kroku poprzeniego do zmiennej
+            } else if (index > 2) {    //warunki stopu dla kolejnych kroków czyli krok 3, 4, 5...
               if (!Vn_1.Equals(Vn) && energy_V == energy_V_1) {     //jeśli potencjał wyjściowy z poprzedniego kroku jest różny od obecnego oraz obecna energia jest równa energii kroku poprzedniego
                 Console.WriteLine("Wniosek: Punkt [{0}] wpada cykl [{1}] <-> [{2}]", V0.ToString("F0", "\n", " "), Vn.ToString("F0", "\n", " "), Vn_1.ToString("F0", "\n", " "));
                 file.WriteLine("Wniosek: Punkt [{0}] wpada w cykl [{1}] <-> [{2}]", V0.ToString("F0", "\n", " "), Vn.ToString("F0", "\n", " "), Vn_1.ToString("F0", "\n", " "));
@@ -174,6 +172,7 @@ namespace DMU.Terminal {
               file.WriteLine("\n----- Koniec badania! -----");
             }
             Vn_1 = Vn;      //przypisanie potencjału wyjściowego jako dla kroku poprzedniego
+            energy_V_1 = energy_V;      //przypisanie energii kroku obecnego jako energie dla kroku poprzedniego
           } while (repeat);
         }       
       }
@@ -388,7 +387,7 @@ namespace DMU.Terminal {
       }
       //wywołanie algorytmu w trybie synchronicznym oraz asynchronicznym dla macierzy wag podanej przez użytkownika
       if (mode == "sync") {
-        //dostępne sekwencje trybu asynchronicznego
+        //dostępne sekwencje trybu asynchronicznego (n1,n2,n3 itd...)
         int [,] sequences = new int [6,3] { { 1,2,3}, { 1,3,2}, { 2,1,3}, { 2,3,1}, { 3,1,2}, { 3,2,1} };
 
         Console.WriteLine("Wybierz sekwencje trybu asynchronicznego:");

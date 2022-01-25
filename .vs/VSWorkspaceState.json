@@ -2,13 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\DMU.Hopfield",
-    "\\DMU.Hopfield\\Math",
-    "\\DMU.Hopfield\\NeuralNetwork",
-    "\\DMU.Hopfield\\Properties",
-    "\\DMU.Hopfield\\Resources",
     "\\DMU.Terminal",
     "\\DMU.TestGui"
   ],
-  "SelectedNode": "\\DMU.TestGui\\DMU.TestGui.csproj",
+  "SelectedNode": "\\DMU.Terminal\\DMU.Terminal.csproj",
   "PreviewInSolutionExplorer": false
 }

@@ -128,7 +128,7 @@ namespace DMU.Terminal {
                 file.WriteLine("\n----- Koniec badania! -----");
               }
             } else if (index <= 2) {    //warunki stopu dla kroku drugiego
-              if (!Vn_1.Equals(Vn)  && energy_V == energy_V_1) {    //jeśli potencjał wyjściowy z poprzedniego kroku jest różny od obecnego oraz obecny potencjał wyjściowy jset równy wektorowi wejściowemu oraz obecna energia jest równa energii kroku poprzedniego
+              if (!Vn_1.Equals(Vn)  && energy_V == energy_V_1) {    //jeśli potencjał wyjściowy z poprzedniego kroku jest różny od obecnego oraz obecna energia jest równa energii kroku poprzedniego
                 Console.WriteLine("Wniosek: Punkt [{0}] tworzy cykl [{1}] <-> [{2}]", V0.ToString("F0", "\n", " "), Vn.ToString("F0", "\n", " "), Vn_1.ToString("F0", "\n", " "));
                 file.WriteLine("Wniosek: Punkt [{0}] tworzy w cykl [{1}] <-> [{2}]", V0.ToString("F0", "\n", " "), Vn.ToString("F0", "\n", " "), Vn_1.ToString("F0", "\n", " "));
                 summary[i, 2]++;
